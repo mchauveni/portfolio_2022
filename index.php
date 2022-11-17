@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="./assets/js/script_writing.js"></script>
-    <script src="./assets/js/hello.js"></script>
     <title>Chaosbeing - Portfolio</title>
 </head>
 
@@ -77,10 +75,14 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
         <section id="hobbies">
             <h2 class="section_title">Software Proficiency</h2>
             <div class="section_content">
-
+                <div data-tilt data-tilt-reverse="true" data-tilt-scale="1.05" data-tilt-glare data-tilt-max-glare="0.2" class="test-tilt"></div>
             </div>
         </section>
     </main>
+
+    <script src="./assets/js/script_writing.js"></script>
+    <script src="./assets/js/hello.js"></script>
+    <script src="./assets/js/vanilla-tilt.js"></script>
 </body>
 
 </html>
