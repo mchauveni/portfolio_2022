@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "K2D";
+    src: url("../fonts/K2D.ttf");
+}
+
+@font-face {
+    font-family: "Righteous";
+    src: url("../fonts/Righteous.ttf");
+}
+
+:root {
+    --bg-main: #1F121F;
+    --bg-secondary: #422742;
+    --txt-secondary: #ECC3FF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "K2D";
+}
+
+body {
+    background-color: var(--bg-main);
+    counter-reset: sectindex 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Righteous";
+    color: var(--txt-secondary);
+}
+
+h1 {
+    font-size: clamp(2rem, 10vw, 6rem);
+}
+
+h2 {
+    font-size: clamp(2rem, 10vw, 3rem);
+}
+
+h2.section_title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-main);
+}
+
+h2.section_title::before {
+    counter-increment: sectindex 1;
+    content: "0" counter(sectindex) " -";
+    position: absolute;
+    width: fit-content;
+    left: 0;
+    transform: translateX(-110%);
+}
+
+h2.section_title::after {
+    content: "";
+    margin-left: 1.5rem;
+    flex: 1;
+    height: 2px;
+    width: 100%;
+    background-color: var(--bg-secondary);
+}
+
+em.title {
+    font-style: normal;
+    font-family: "Righteous";
+    color: var(--txt-secondary);
+}
+
+.bt {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 1.25rem 0;
+}
