@@ -44,7 +44,7 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
                     <p><?php echo $texts->about_text[2]; ?></p>
                 </div>
                 <div class="img-wrapper">
-                    <img src="./assets/img/pfp.webp" alt="" id="hello_img">
+                    <img src="./assets/img/hello.svg" alt="" id="hello_img">
                 </div>
             </div>
         </section>
