@@ -14,6 +14,20 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
 ?>
 
 <body>
+    <header>
+        <div class="logo_container">
+            <img src="./TOREMOVEFROMPROD/some_sort_of_logo.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><?php echo $texts->about_title; ?></li>
+                <li><?php echo $texts->hobbies_title; ?></li>
+                <li><?php echo $texts->about_title; ?></li>
+                <li><?php echo $texts->about_title; ?></li>
+                <li><?php echo $texts->about_title; ?></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section id="hero">
             <h1><?php echo $texts->main_title[0]; ?></h1>
@@ -72,10 +86,15 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
             </div>
         </section>
 
-        <section id="hobbies">
+        <section id="softwares">
             <h2 class="section_title">Software Proficiency</h2>
             <div class="section_content">
-                <div data-tilt data-tilt-reverse="true" data-tilt-scale="1.05" data-tilt-glare data-tilt-max-glare="0.2" class="test-tilt"></div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section_title">Contact me</h2>
+            <div class="section_content">
             </div>
         </section>
     </main>
