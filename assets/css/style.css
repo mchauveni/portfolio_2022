@@ -15,7 +15,7 @@ section {
 }
 
 .section_content {
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 header {
@@ -23,7 +23,7 @@ header {
     height: 7rem;
     z-index: 1000000;
     position: fixed;
-    background-color: var(--txt-secondary);
+    background-color: var(--bg-main-opacity);
     backdrop-filter: blur(3px);
     display: flex;
     flex-direction: row;
@@ -54,8 +54,6 @@ header nav ul {
     gap: 3rem;
     font-size: 1.5rem;
 }
-
-header nav ul li {}
 
 #hero {
     max-width: 1400px;
@@ -92,27 +90,6 @@ header nav ul li {}
     transform-origin: top center;
     transform: translateY(-20%);
 }
-
-/* #about .section_content img {
-    width: 100%;
-    height: 100%;
-    border: 5px solid var(--bg-secondary);
-    border-radius: 15px;
-} */
-
-/* 
-#about .section_content .img-wrapper:after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    border: 5px solid var(--bg-secondary);
-    border-radius: 15px;
-    top: 1rem;
-    left: 1rem;
-    z-index: -1;
-    transition: 300ms;
-} */
 
 #about .section_content .img-wrapper:hover:after {
     top: 0.3rem;
@@ -152,4 +129,60 @@ header nav ul li {}
 
 #hobbies .card {
     text-align: center;
+}
+
+.work-sect {
+    background-color: var(--bg-secondary);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 3rem 0;
+    display: grid;
+    grid-template-rows: 2fr 3fr;
+    gap: 2rem;
+}
+
+.work-sect h3 {
+    margin: 1rem 0;
+}
+
+.ws-header {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 1.5rem;
+    overflow: hidden;
+}
+
+.ws-icon {
+    width: 100%;
+    height: 100%;
+    background: center center / contain url("../../TOREMOVEFROMPROD/some_sort_of_logo.png") no-repeat;
+}
+
+.preview {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.preview a {
+    display: block;
+    border-radius: 20px;
+    height: 100%;
+    background-color: var(--bg-main);
+}
+
+.preview .preview-explore {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 300ms;
+}
+
+.preview .preview-explore:hover {
+    background-color: var(--txt-secondary);
+}
+
+.preview .preview-explore:hover p {
+    color: var(--bg-main);
 }

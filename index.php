@@ -52,7 +52,6 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
         <section id="hobbies">
             <h2 class="section_title"><?php echo $texts->hobbies_title; ?></h2>
             <div class="section_content">
-
                 <div class="card">
                     <div class="img-wrapper">
                         <img src="./assets/img/coding.png" alt="">
@@ -82,7 +81,39 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
         <section id="works">
             <h2 class="section_title">My works</h2>
             <div class="section_content">
+                <div class="work-sect">
+                    <div class="ws-header">
+                        <div class="ws-content">
+                            <h3>Websites</h3>
+                            <p>Get to see the collection of my websites. They’re all trash but at least i’ve done some things i guess ? idk what it’s worth in the end</p>
+                        </div>
+                        <div class="ws-icon"></div>
+                    </div>
+                    <div class="preview">
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href="" class="preview-explore">
+                            <p>Explore</p>
+                        </a>
+                    </div>
+                </div>
 
+                <div class="work-sect">
+                    <div class="ws-header">
+                        <div class="ws-content">
+                            <h3>Illustration</h3>
+                            <p>I’ve done some shit with illustrator and/or photoshop, so here they are... Also i’ve done inktober and it was fun ig</p>
+                        </div>
+                        <div class="ws-icon"></div>
+                    </div>
+                    <div class="preview">
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href="" class="preview-explore">
+                            <p>Explore</p>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
 

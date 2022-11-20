@@ -46,6 +46,10 @@ h2 {
     font-size: clamp(2rem, 10vw, 3rem);
 }
 
+h3 {
+    font-size: clamp(1.5rem, 10vw, 2rem);
+}
+
 h2.section_title {
     position: relative;
     display: flex;
