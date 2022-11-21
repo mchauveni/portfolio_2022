@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
         var bottomOffset = topOffset - window.innerHeight; // How far away bottom of the elem is to the top of the page
 
         // window.innerHeight + about_section.offsetHeight = 100% scrolled
-        console.log();
 
         let translatePercentage = ((bottomOffset * 100) / (window.innerHeight + about_section.offsetHeight)) * -1 - 50;
         img.style.transform = `translateY(${translatePercentage}%)`;

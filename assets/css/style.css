@@ -202,6 +202,11 @@ header nav ul {
     justify-content: space-around;
 }
 
+.skill-nav li {
+    cursor: pointer;
+    position: relative;
+}
+
 footer {
     background-color: var(--bg-secondary);
     padding: 3rem 0 5rem 0;

@@ -121,7 +121,7 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
             <h2 class="section_title">Skillzzz</h2>
             <div class="section_content">
                 <div class="skill-nav">
-                    <ul>
+                    <ul class="skill-nav-list">
                         <li>Languages</li>
                         <li>Technologies</li>
                         <li>Adobe</li>
@@ -168,6 +168,7 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
     <script src="./assets/js/script_writing.js"></script>
     <script src="./assets/js/hello.js"></script>
     <script src="./assets/js/vanilla-tilt.js"></script>
+    <script src="./assets/js/skill_menu.js"></script>
 </body>
 
 </html>
