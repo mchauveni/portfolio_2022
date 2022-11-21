@@ -122,13 +122,21 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
             <div class="section_content">
                 <div class="skill-nav">
                     <ul class="skill-nav-list">
-                        <li>Languages</li>
-                        <li>Technologies</li>
-                        <li>Adobe</li>
-                        <li>Microsoft</li>
+                        <li class="nav-item active">Languages</li>
+                        <li class="nav-item">Technologies</li>
+                        <li class="nav-item">Adobe</li>
+                        <li class="nav-item">Microsoft</li>
+                        <li class="slider"></li>
                     </ul>
                 </div>
-                <div class="skill-view"></div>
+                <div class="skill-view">
+                    <div class="languages">
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="technologies">
+                        <h3>Technologies</h3>
+                    </div>
+                </div>
             </div>
         </section>
 
