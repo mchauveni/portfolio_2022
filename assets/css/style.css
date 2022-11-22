@@ -221,12 +221,20 @@ header nav ul {
     transform: translateY(25%);
     background-color: var(--txt-secondary);
     z-index: 9;
-    transition: all 250ms;
+    transition: all cubic-bezier(.7, .22, .26, .76) 300ms;
 }
 
 .skill-nav .active {
     color: var(--bg-main);
     transition: all 200ms 100ms;
+}
+
+.nav-item:hover {
+    color: var(--txt-secondary);
+}
+
+.skill-nav .active:hover {
+    color: var(--bg-main);
 }
 
 .skill-view {

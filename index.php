@@ -179,7 +179,7 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
         </div>
     </footer>
 
-    <script src="./assets/js/script_writing.js"></script>
+    <script src="./assets/js/typewriter.js"></script>
     <script src="./assets/js/hello.js"></script>
     <script src="./assets/js/vanilla-tilt.js"></script>
     <script src="./assets/js/skill_menu.js"></script>
