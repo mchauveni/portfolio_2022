@@ -8,6 +8,16 @@
     src: url("../fonts/Righteous.ttf");
 }
 
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 :root {
     --bg-main: #0E0C13;
     --bg-main-opacity: #0E0C1380;

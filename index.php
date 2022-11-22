@@ -136,6 +136,12 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
                     <div class="technologies">
                         <h3>Technologies</h3>
                     </div>
+                    <div class="adobe">
+                        <h3>Adobe</h3>
+                    </div>
+                    <div class="microsoft">
+                        <h3>Microsoft</h3>
+                    </div>
                 </div>
             </div>
         </section>

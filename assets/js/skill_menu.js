@@ -23,10 +23,16 @@ navElements.forEach((li) => {
 function setActive(element) {
     if (element.classList.contains("active")) return;
 
-    document.querySelector(".active").classList.remove("active");
+    document.querySelectorAll(".active").forEach((active) => {
+        active.classList.remove("active");
+    });
     element.classList.add("active");
 
-    console.log(element.offsetWidth);
     slider.style.width = element.offsetWidth + "px";
     slider.style.left = element.offsetLeft + "px";
+
+    let view_part = document.querySelector("." + element.innerHTML.toLowerCase());
+    view_part.classList.add("active");
+
+    menu.scrollTo(view_part.offsetLeft - menu.offsetLeft, 0);
 }
