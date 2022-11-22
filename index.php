@@ -49,6 +49,74 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
             </div>
         </section>
 
+        <section id="works">
+            <h2 class="section_title"><?php echo $texts->work_title; ?></h2>
+            <div class="section_content">
+                <div class="work-sect">
+                    <div class="ws-header">
+                        <div class="ws-content">
+                            <h3><?php echo $texts->work_sect[0]->title; ?></h3>
+                            <p><?php echo $texts->work_sect[0]->text; ?></p>
+                        </div>
+                        <div class="ws-icon"></div>
+                    </div>
+                    <div class="preview">
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href="" class="preview-explore">
+                            <p><?php echo $texts->work_sect_button; ?></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work-sect">
+                    <div class="ws-header">
+                        <div class="ws-content">
+                            <h3><?php echo $texts->work_sect[1]->title; ?></h3>
+                            <p><?php echo $texts->work_sect[1]->text; ?></p>
+                        </div>
+                        <div class="ws-icon"></div>
+                    </div>
+                    <div class="preview">
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href="" class="preview-explore">
+                            <p><?php echo $texts->work_sect_button; ?></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="section_title">Skillzzz</h2>
+            <div class="section_content">
+                <div class="skill-nav">
+                    <ul class="skill-nav-list">
+                        <li class="nav-item active">Languages</li>
+                        <li class="nav-item">Technologies</li>
+                        <li class="nav-item">Adobe</li>
+                        <li class="nav-item">Microsoft</li>
+                        <li class="slider"></li>
+                    </ul>
+                </div>
+                <div class="skill-view">
+                    <div class="languages">
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="technologies">
+                        <h3>Technologies</h3>
+                    </div>
+                    <div class="adobe">
+                        <h3>Adobe</h3>
+                    </div>
+                    <div class="microsoft">
+                        <h3>Microsoft</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="hobbies">
             <h2 class="section_title"><?php echo $texts->hobbies_title; ?></h2>
             <div class="section_content">
@@ -74,74 +142,6 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
                     </div>
                     <h2><?php echo $texts->hobbies_cards[2]->title ?></h2>
                     <p><?php echo $texts->hobbies_cards[2]->text ?></p>
-                </div>
-            </div>
-        </section>
-
-        <section id="works">
-            <h2 class="section_title">My works</h2>
-            <div class="section_content">
-                <div class="work-sect">
-                    <div class="ws-header">
-                        <div class="ws-content">
-                            <h3>Websites</h3>
-                            <p>Get to see the collection of my websites. They’re all trash but at least i’ve done some things i guess ? idk what it’s worth in the end</p>
-                        </div>
-                        <div class="ws-icon"></div>
-                    </div>
-                    <div class="preview">
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href="" class="preview-explore">
-                            <p>Explore</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="work-sect">
-                    <div class="ws-header">
-                        <div class="ws-content">
-                            <h3>Illustration</h3>
-                            <p>I’ve done some shit with illustrator and/or photoshop, so here they are... Also i’ve done inktober and it was fun ig</p>
-                        </div>
-                        <div class="ws-icon"></div>
-                    </div>
-                    <div class="preview">
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href="" class="preview-explore">
-                            <p>Explore</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="softwares">
-            <h2 class="section_title">Skillzzz</h2>
-            <div class="section_content">
-                <div class="skill-nav">
-                    <ul class="skill-nav-list">
-                        <li class="nav-item active">Languages</li>
-                        <li class="nav-item">Technologies</li>
-                        <li class="nav-item">Adobe</li>
-                        <li class="nav-item">Microsoft</li>
-                        <li class="slider"></li>
-                    </ul>
-                </div>
-                <div class="skill-view">
-                    <div class="languages">
-                        <h3>Languages</h3>
-                    </div>
-                    <div class="technologies">
-                        <h3>Technologies</h3>
-                    </div>
-                    <div class="adobe">
-                        <h3>Adobe</h3>
-                    </div>
-                    <div class="microsoft">
-                        <h3>Microsoft</h3>
-                    </div>
                 </div>
             </div>
         </section>
@@ -182,7 +182,7 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
     <script src="./assets/js/typewriter.js"></script>
     <script src="./assets/js/hello.js"></script>
     <script src="./assets/js/vanilla-tilt.js"></script>
-    <script src="./assets/js/skill_menu.js"></script>
+    <script src="./assets/js/lava_menu.js"></script>
 </body>
 
 </html>

@@ -3,6 +3,18 @@
     "main_subtitle": "Trying my best in life to get things done, please take a look around to get to know me.",
     "about_title": "About me",
     "about_text": ["I am currently studying in internet and multimedia technologies in France. Trying some shit out, i’ll probably do something great one day.", "I started being interessed in coding with Discord bots, trying out Discord.js module. Then I chose every coding path at school, because I had it in mind.", "Today I’m trying to get my life together and struggle to get things done."],
+    "work_title": "My works",
+    "work_sect": [
+        {
+            "title": "Websites",
+            "text": "Get to see the collection of my websites. They’re all trash but at least i’ve done some things i guess ? idk what it’s worth in the end"
+        },
+        {
+            "title": "Illustrations",
+            "text": "I’ve done some shit with illustrator and/or photoshop, so here they are... Also i’ve done inktober and it was fun ig"
+        }
+    ],
+    "work_sect_button": "See more",
     "hobbies_title": "Hobbies",
     "hobbies_cards": [
         {
