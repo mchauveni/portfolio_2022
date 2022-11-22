@@ -149,6 +149,29 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
         <section id="contact">
             <h2 class="section_title">Contact me</h2>
             <div class="section_content">
+                <form class="contact-form" action="">
+                    <div class="question-wrapper">
+                        <div class="form-question">
+                            <label for="identity">Who are you ?</label>
+                            <input type="text" name="identity">
+                            <span class="underline"></span>
+                        </div>
+                        <div class="form-question">
+                            <label for="identity">What's your email adress ?</label>
+                            <input type="text" name="email">
+                            <span class="underline"></span>
+                        </div>
+                        <div class="form-question">
+                            <label for="identity">What do you want to tell me ?</label>
+                            <input type="text" name="message">
+                            <span class="underline"></span>
+                        </div>
+                    </div>
+                    <div class="button-wrapper">
+                        <button>Return</button>
+                        <button>Submit</button>
+                    </div>
+                </form>
             </div>
         </section>
     </main>
