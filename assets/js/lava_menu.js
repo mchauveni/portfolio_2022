@@ -1,5 +1,5 @@
 /* TO REMLOVE LATER, ITS JUST HERE FOR CONVENIENCE BECAUSE RELOADING THE PAGE TAKES ME LIKE ALL THE WAY UP EVERYTIME */
-window.scrollTo(0, 3300);
+window.scrollTo(0, 3850);
 
 const nav_items = document.querySelectorAll(".nav-item");
 const menu = document.querySelector(".skill-view");

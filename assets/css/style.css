@@ -265,6 +265,7 @@ header nav ul {
 }
 
 .question-wrapper {
+    max-height: 150px;
     overflow: hidden;
     scroll-behavior: smooth;
     display: grid;
@@ -272,6 +273,7 @@ header nav ul {
 }
 
 .form-question {
+    max-height: 150px;
     position: relative;
     padding: 2rem;
     display: flex;
@@ -290,6 +292,10 @@ header nav ul {
     background-color: var(--bg-main);
     border: none;
     border-bottom: 3px solid var(--bg-secondary);
+}
+
+.form-question input::placeholder {
+    color: var(--bg-secondary);
 }
 
 .form-question input:focus+.underline {
@@ -325,17 +331,22 @@ header nav ul {
     border: none;
     border-radius: 10px;
     outline: none;
+}
+
+.form-btn-next {
     cursor: pointer;
 }
 
 .form-btn-prev {
+    transform-origin: center;
     opacity: 0;
-    cursor: default !important;
     transition: 300ms;
 }
 
 .form-btn-prev.visible {
+    display: block;
     opacity: 1;
+    cursor: pointer;
 }
 
 footer {

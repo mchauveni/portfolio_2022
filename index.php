@@ -153,17 +153,17 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
                     <div class="question-wrapper">
                         <div class="form-question" index="0">
                             <label for="identity">Who are you ?</label>
-                            <input type="text" name="identity" required>
+                            <input type="text" name="identity" placeholder="Mohamed Lee" required>
                             <span class="underline"></span>
                         </div>
                         <div class="form-question" index="1">
                             <label for="identity">What's your email adress ?</label>
-                            <input type="text" name="email" required>
+                            <input type="text" name="email" placeholder="contact@entreprise.com" required>
                             <span class="underline"></span>
                         </div>
                         <div class="form-question" index="2">
                             <label for="identity">What do you want to tell me ?</label>
-                            <input type="text" name="message" required>
+                            <input type="text" name="message" placeholder="Hey ! I like the background color !" required>
                             <span class="underline"></span>
                         </div>
                     </div>
@@ -172,6 +172,9 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
                         <button class="form-btn-next">Next</button>
                     </div>
                 </form>
+                <div class="form-validation">
+
+                </div>
             </div>
         </section>
     </main>
