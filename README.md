@@ -6,6 +6,7 @@ TODO :
 - Clean EN
 - FR version
 - Sanitize form data
+- Make an actual PHP script
 
 - DO THE WORK PAGE (ILLUSTRATION & WEBSITES)
 - ADD WEBSITES LMAO
