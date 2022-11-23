@@ -265,6 +265,8 @@ header nav ul {
 }
 
 .question-wrapper {
+    overflow: hidden;
+    scroll-behavior: smooth;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
 }
@@ -324,6 +326,16 @@ header nav ul {
     border-radius: 10px;
     outline: none;
     cursor: pointer;
+}
+
+.form-btn-prev {
+    opacity: 0;
+    cursor: default !important;
+    transition: 300ms;
+}
+
+.form-btn-prev.visible {
+    opacity: 1;
 }
 
 footer {

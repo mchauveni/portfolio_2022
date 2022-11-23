@@ -149,27 +149,27 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
         <section id="contact">
             <h2 class="section_title">Contact me</h2>
             <div class="section_content">
-                <form class="contact-form" action="">
+                <form class="contact-form" action="./assets/scripts/form.php">
                     <div class="question-wrapper">
-                        <div class="form-question">
+                        <div class="form-question" index="0">
                             <label for="identity">Who are you ?</label>
-                            <input type="text" name="identity">
+                            <input type="text" name="identity" required>
                             <span class="underline"></span>
                         </div>
-                        <div class="form-question">
+                        <div class="form-question" index="1">
                             <label for="identity">What's your email adress ?</label>
-                            <input type="text" name="email">
+                            <input type="text" name="email" required>
                             <span class="underline"></span>
                         </div>
-                        <div class="form-question">
+                        <div class="form-question" index="2">
                             <label for="identity">What do you want to tell me ?</label>
-                            <input type="text" name="message">
+                            <input type="text" name="message" required>
                             <span class="underline"></span>
                         </div>
                     </div>
                     <div class="button-wrapper">
-                        <button>Return</button>
-                        <button>Submit</button>
+                        <button class="form-btn-prev">Previous</button>
+                        <button class="form-btn-next">Next</button>
                     </div>
                 </form>
             </div>
@@ -206,6 +206,7 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
     <script src="./assets/js/hello.js"></script>
     <script src="./assets/js/vanilla-tilt.js"></script>
     <script src="./assets/js/lava_menu.js"></script>
+    <script src="./assets/js/form.js"></script>
 </body>
 
 </html>
