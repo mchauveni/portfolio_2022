@@ -93,7 +93,7 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
             <div class="section_content">
                 <div class="skill-nav">
                     <ul class="skill-nav-list">
-                        <li class="nav-item active">Languages</li>
+                        <li class="nav-item active">Langages</li>
                         <li class="nav-item">Technologies</li>
                         <li class="nav-item">Adobe</li>
                         <li class="nav-item">Microsoft</li>
@@ -101,8 +101,30 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
                     </ul>
                 </div>
                 <div class="skill-view">
-                    <div class="languages">
-                        <h3>Languages</h3>
+                    <div class="langages">
+                        <h3>Langages</h3>
+                        <div class="sv-content-wrapper">
+                            <div class="svc-element">
+                                <img src="./assets/img/html_css_logo.svg" alt="icon that reminds the HTML and CSS icon" class="svc-img">
+                                <h4 class="svc-title">HTML / CSS</h4>
+                                <p class="svc-text">I used these throughout a lot of project, without any framework, templates or preprocessor of any kind. Pure plain old HTML and CSS.</p>
+                            </div>
+                            <div class="svc-element">
+                                <img src="./assets/img/javascript_logo.svg"" alt=" the javascript icon" class="svc-img">
+                                <h4 class="svc-title">Javascript</h4>
+                                <p class="svc-text">My favorite language overall, JS is a thing I like to work with. Everything done on this site is hand-made with pure vanilla JS.</p>
+                            </div>
+                            <div class="svc-element">
+                                <img src="" alt="" class="svc-img">
+                                <h4 class="svc-title">PHP / SQL</h4>
+                                <p class="svc-text"></p>
+                            </div>
+                            <div class="svc-element">
+                                <img src="" alt="" class="svc-img">
+                                <h4 class="svc-title">Java</h4>
+                                <p class="svc-text"></p>
+                            </div>
+                        </div>
                     </div>
                     <div class="technologies">
                         <h3>Technologies</h3>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290.19 329.1">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: #264de4;
+            }
+
+            .cls-2 {
+                fill: #2965f1;
+            }
+
+            .cls-3 {
+                fill: #e44d26;
+            }
+
+            .cls-4 {
+                fill: #f16529;
+            }
+
+            .cls-5 {
+                fill: #fff;
+            }
+        </style>
+    </defs>
+    <g id="Calque_1" data-name="Calque 1">
+        <polygon id="polygon2989" class="cls-1" points="290.19 0 263.75 296.16 144.92 329.1 26.41 296.21 0 0 290.19 0" />
+        <polygon id="polygon2991" class="cls-2" points="241.12 277.3 263.71 24.22 145.09 24.22 145.09 303.92 241.12 277.3" />
+        <polygon class="cls-3" points="-0.02 0 26.38 296.31 290.21 0 -0.02 0" />
+        <polygon class="cls-4" points="263.19 30.34 263.73 24.32 145.09 24.32 145.09 162.98 263.19 30.34" />
+        <path class="cls-5" d="M25,68.3H43.68V86.81H60.89V68.3H79.56v56H60.89V105.64h-17V124.3H25M104.23,87H87.75V68.3h51.7V87H122.9V124.3H104.23m43.42-56h19.56l12,19.73,12-19.73h19.56v56H192.13V96.55l-13.07,20.13L166,96.55V124.3H147.65M220,68.3h18.67v37.5h26.46v18.5H220" />
+        <path id="path2999" class="cls-5" d="M68.29,180.27h44v18.4H86.69v18.4h25.6v18.4h-44Z" />
+        <path id="path3001" class="cls-5" d="M121.09,180.27h44v16h-25.6v3.2h25.6v36.8h-44v-16.8h25.6v-3.2h-25.6Z" />
+        <path id="path3003" class="cls-5" d="M173.89,180.27h44v16h-25.6v3.2h25.6v36.8h-44v-16.8h25.6v-3.2h-25.6Z" />
+    </g>
+</svg>
