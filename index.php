@@ -105,35 +105,56 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
                         <h3>Langages</h3>
                         <div class="sv-content-wrapper">
                             <div class="svc-element">
-                                <img src="./assets/img/html_css_logo.svg" alt="icon that reminds the HTML and CSS icon" class="svc-img">
+                                <img src="./assets/img/html_css_icon.svg" alt="icon that reminds the HTML and CSS icon" class="svc-img">
                                 <h4 class="svc-title">HTML / CSS</h4>
                                 <p class="svc-text">I used these throughout a lot of project, without any framework, templates or preprocessor of any kind. Pure plain old HTML and CSS.</p>
                             </div>
                             <div class="svc-element">
-                                <img src="./assets/img/javascript_logo.svg"" alt=" the javascript icon" class="svc-img">
+                                <img src="./assets/img/javascript_icon.svg"" alt=" the javascript icon" class="svc-img">
                                 <h4 class="svc-title">Javascript</h4>
                                 <p class="svc-text">My favorite language overall, JS is a thing I like to work with. Everything done on this site is hand-made with pure vanilla JS.</p>
                             </div>
                             <div class="svc-element">
-                                <img src="" alt="" class="svc-img">
+                                <img src="./assets/img/php_sql_icon.svg" alt="" class="svc-img">
                                 <h4 class="svc-title">PHP / SQL</h4>
-                                <p class="svc-text"></p>
+                                <p class="svc-text">Mostly used in school, I know SQL basic concept. PHP on the other hand is also a language I love, because we can basically rule the web with it.</p>
                             </div>
                             <div class="svc-element">
-                                <img src="" alt="" class="svc-img">
+                                <img src="./assets/img/java_icon.svg" alt="" class="svc-img">
                                 <h4 class="svc-title">Java</h4>
-                                <p class="svc-text"></p>
+                                <p class="svc-text">I'm not that good with Java, I used it over 2020-2021 with Netbeans, but that's about it.</p>
                             </div>
                         </div>
                     </div>
                     <div class="technologies">
                         <h3>Technologies</h3>
+                        <div class="sv-content-wrapper">
+                            <div class="svc-element">
+                                <img src="" alt="" class="svc-img">
+                                <h4 class="svc-title"></h4>
+                                <p class="svc-text"></p>
+                            </div>
+                        </div>
                     </div>
                     <div class="adobe">
                         <h3>Adobe</h3>
+                        <div class="sv-content-wrapper">
+                            <div class="svc-element">
+                                <img src="" alt="" class="svc-img">
+                                <h4 class="svc-title"></h4>
+                                <p class="svc-text"></p>
+                            </div>
+                        </div>
                     </div>
                     <div class="microsoft">
                         <h3>Microsoft</h3>
+                        <div class="sv-content-wrapper">
+                            <div class="svc-element">
+                                <img src="" alt="" class="svc-img">
+                                <h4 class="svc-title"></h4>
+                                <p class="svc-text"></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
