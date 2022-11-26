@@ -52,11 +52,11 @@ function previousQuestion() {
             return;
         case 1:
             question_index--;
-            btn_next.innerHTML = "Next";
             btn_prev.classList.remove("visible");
             break;
         case 2:
             question_index--;
+            btn_next.innerHTML = "Next";
             break;
     }
     changeQuestionView();
@@ -73,6 +73,8 @@ function submitForm() {
     };
 
     fetch(form.action, options);
+    question_index = 0;
+    changeQuestionView();
     form.reset();
 }
 

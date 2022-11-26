@@ -185,7 +185,7 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
             <div class="section_content">
                 <div class="card">
                     <div class="img-wrapper">
-                        <img src="./assets/img/coding.png" alt="">
+                        <img src="./assets/img/hobbies_icons/coding.png" alt="">
                     </div>
                     <h2><?php echo $texts->hobbies_cards[0]->title ?></h2>
                     <p><?php echo $texts->hobbies_cards[0]->text ?></p>
@@ -193,7 +193,7 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
 
                 <div class="card">
                     <div class="img-wrapper">
-                        <img src="./assets/img/design.png" alt="">
+                        <img src="./assets/img/hobbies_icons/design.png" alt="">
                     </div>
                     <h2><?php echo $texts->hobbies_cards[1]->title ?></h2>
                     <p><?php echo $texts->hobbies_cards[1]->text ?></p>
@@ -201,7 +201,7 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
 
                 <div class="card">
                     <div class="img-wrapper">
-                        <img src="./assets/img/gaming.png" alt="">
+                        <img src="./assets/img/hobbies_icons/gaming.png" alt="">
                     </div>
                     <h2><?php echo $texts->hobbies_cards[2]->title ?></h2>
                     <p><?php echo $texts->hobbies_cards[2]->text ?></p>
