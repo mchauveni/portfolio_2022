@@ -362,7 +362,6 @@ header nav ul {
 }
 
 .form-btn-prev {
-    transform-origin: center;
     opacity: 0;
     transition: 300ms;
 }

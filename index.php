@@ -105,22 +105,22 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
                         <h3>Langages</h3>
                         <div class="sv-content-wrapper">
                             <div class="svc-element">
-                                <img src="./assets/img/html_css_icon.svg" alt="icon that reminds the HTML and CSS icon" class="svc-img">
+                                <img src="./assets/img/skill_icons/html_css_icon.svg" alt="icon that reminds the HTML and CSS icon" class="svc-img">
                                 <h4 class="svc-title">HTML / CSS</h4>
                                 <p class="svc-text">I used these throughout a lot of project, without any framework, templates or preprocessor of any kind. Pure plain old HTML and CSS.</p>
                             </div>
                             <div class="svc-element">
-                                <img src="./assets/img/javascript_icon.svg"" alt=" the javascript icon" class="svc-img">
+                                <img src="./assets/img/skill_icons/javascript_icon.svg"" alt=" the javascript icon" class="svc-img">
                                 <h4 class="svc-title">Javascript</h4>
                                 <p class="svc-text">My favorite language overall, JS is a thing I like to work with. Everything done on this site is hand-made with pure vanilla JS.</p>
                             </div>
                             <div class="svc-element">
-                                <img src="./assets/img/php_sql_icon.svg" alt="" class="svc-img">
+                                <img src="./assets/img/skill_icons/php_sql_icon.svg" alt="" class="svc-img">
                                 <h4 class="svc-title">PHP / SQL</h4>
                                 <p class="svc-text">Mostly used in school, I know SQL basic concept. PHP on the other hand is also a language I love, because we can basically rule the web with it.</p>
                             </div>
                             <div class="svc-element">
-                                <img src="./assets/img/java_icon.svg" alt="" class="svc-img">
+                                <img src="./assets/img/skill_icons/java_icon.svg" alt="" class="svc-img">
                                 <h4 class="svc-title">Java</h4>
                                 <p class="svc-text">I'm not that good with Java, I used it over 2020-2021 with Netbeans, but that's about it.</p>
                             </div>
@@ -130,9 +130,9 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
                         <h3>Technologies</h3>
                         <div class="sv-content-wrapper">
                             <div class="svc-element">
-                                <img src="" alt="" class="svc-img">
-                                <h4 class="svc-title"></h4>
-                                <p class="svc-text"></p>
+                                <img src="./assets/img/skill_icons/nodejs_icon.svg" alt="" class="svc-img">
+                                <h4 class="svc-title">Node.Js</h4>
+                                <p class="svc-text">I used it a lot for creating some Discord bots with DiscordJs, before I was good at coding.</p>
                             </div>
                         </div>
                     </div>
@@ -140,9 +140,24 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
                         <h3>Adobe</h3>
                         <div class="sv-content-wrapper">
                             <div class="svc-element">
-                                <img src="" alt="" class="svc-img">
-                                <h4 class="svc-title"></h4>
-                                <p class="svc-text"></p>
+                                <img src="./assets/img/skill_icons/illustrator_icon.svg" alt="" class="svc-img">
+                                <h4 class="svc-title">Illustrator</h4>
+                                <p class="svc-text">I found myself fascinated by Illustrator, and used it a lot to create logos, infographics, and even some drawings !</p>
+                            </div>
+                            <div class="svc-element">
+                                <img src="./assets/img/skill_icons/photoshop_icon.svg" alt="" class="svc-img">
+                                <h4 class="svc-title">Photoshop</h4>
+                                <p class="svc-text">During my youth, I NEEDED to know how to photoshop, because it was way too funny to see my teachers with pokeballs, trying to catch a pidgeon.</p>
+                            </div>
+                            <div class="svc-element">
+                                <img src="./assets/img/skill_icons/premiere_icon.svg" alt="" class="svc-img">
+                                <h4 class="svc-title">Premiere Pro</h4>
+                                <p class="svc-text">I used it for some time, to do funy montages on youtube. Most of them are now deleted, and I would not show those who remains.</p>
+                            </div>
+                            <div class="svc-element">
+                                <img src="./assets/img/skill_icons/aftereffects_icon.svg" alt="" class="svc-img">
+                                <h4 class="svc-title">After Effects</h4>
+                                <p class="svc-text">I'm quite a beginner but I roughly know the bases and can do basic animations.</p>
                             </div>
                         </div>
                     </div>
@@ -150,9 +165,14 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
                         <h3>Microsoft</h3>
                         <div class="sv-content-wrapper">
                             <div class="svc-element">
-                                <img src="" alt="" class="svc-img">
-                                <h4 class="svc-title"></h4>
-                                <p class="svc-text"></p>
+                                <img src="./assets/img/skill_icons/excel_icon.svg" alt="" class="svc-img">
+                                <h4 class="svc-title">Excel</h4>
+                                <p class="svc-text">I did more excel than I would like to admit, doing minmaxing for RPGs. I still have some sheets lying around, but most of these were temporary.</p>
+                            </div>
+                            <div class="svc-element">
+                                <img src="./assets/img/skill_icons/words_icon.svg" alt="" class="svc-img">
+                                <h4 class="svc-title">Words</h4>
+                                <p class="svc-text">Everyone needs to know words, and so do I. I can type quite fast, and am used to the interface.</p>
                             </div>
                         </div>
                     </div>
