@@ -1,3 +1,6 @@
+/* TO REMLOVE LATER, ITS JUST HERE FOR CONVENIENCE BECAUSE RELOADING THE PAGE TAKES ME LIKE ALL THE WAY UP EVERYTIME */
+window.scrollTo(0, 5000);
+
 const form = document.querySelector(".contact-form");
 const status = document.querySelector("#status");
 const question_wrapper = document.querySelector(".question-wrapper");
@@ -9,11 +12,13 @@ const input_array = document.querySelectorAll("input[type='text']");
 // FORM WRAPPER STYLE to get question height
 let question_index = 0;
 
-console.log(input_array);
-
 btn_next.addEventListener("click", (e) => {
     e.preventDefault();
-    nextQuestion();
+    if (input_array[question_index].value.trim() === "") {
+        error();
+    } else {
+        nextQuestion();
+    }
 });
 
 btn_prev.addEventListener("click", (e) => {
@@ -72,7 +77,14 @@ function submitForm() {
         body: datas,
     };
 
-    fetch(form.action, options);
+    fetch(form.action, options)
+        .then((response) => {
+            console.log(response);
+        })
+        .then((server) => {
+            console.log(server);
+        });
+
     question_index = 0;
     changeQuestionView();
     form.reset();
@@ -90,4 +102,13 @@ function changeQuestionView() {
         btn_next.disabled = false;
         btn_prev.disabled = false;
     }, 200);
+}
+
+function error() {
+    input_array[question_index].focus();
+
+    question_array[question_index].classList.add("err");
+    setTimeout(() => {
+        question_array[question_index].classList.remove("err");
+    }, 500);
 }

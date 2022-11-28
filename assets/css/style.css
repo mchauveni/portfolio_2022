@@ -304,6 +304,10 @@ header nav ul {
     flex-direction: column;
 }
 
+.form-question.err {
+    animation: shake 500ms cubic-bezier(.36, .07, .19, .97) both;
+}
+
 .form-question label {
     font-size: 1.25rem;
 }

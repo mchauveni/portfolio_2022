@@ -221,7 +221,7 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
                         </div>
                         <div class="form-question" index="1">
                             <label for="identity">What's your email adress ?</label>
-                            <input type="text" name="email" placeholder="contact@entreprise.com" required>
+                            <input type="text" name="email" placeholder="contact@entreprise.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                             <span class="underline"></span>
                         </div>
                         <div class="form-question" index="2">

@@ -1,6 +1,3 @@
-/* TO REMLOVE LATER, ITS JUST HERE FOR CONVENIENCE BECAUSE RELOADING THE PAGE TAKES ME LIKE ALL THE WAY UP EVERYTIME */
-window.scrollTo(0, 2800);
-
 const nav_items = document.querySelectorAll(".nav-item");
 const menu = document.querySelector(".skill-view");
 const slider = document.querySelector(".slider");
