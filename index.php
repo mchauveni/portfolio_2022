@@ -20,11 +20,11 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
         </div>
         <nav>
             <ul>
-                <li><?php echo $texts->about_title; ?></li>
-                <li><?php echo $texts->hobbies_title; ?></li>
-                <li><?php echo $texts->about_title; ?></li>
-                <li><?php echo $texts->about_title; ?></li>
-                <li><?php echo $texts->about_title; ?></li>
+                <li><?php echo $texts->navbar[0]; ?></li>
+                <li><?php echo $texts->navbar[1]; ?></li>
+                <li><?php echo $texts->navbar[2]; ?></li>
+                <li><?php echo $texts->navbar[3]; ?></li>
+                <li><?php echo $texts->navbar[4]; ?></li>
             </ul>
         </nav>
     </header>
@@ -110,7 +110,7 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
                                 <p class="svc-text">I used these throughout a lot of project, without any framework, templates or preprocessor of any kind. Pure plain old HTML and CSS.</p>
                             </div>
                             <div class="svc-element">
-                                <img src="./assets/img/skill_icons/javascript_icon.svg"" alt=" the javascript icon" class="svc-img">
+                                <img src="./assets/img/skill_icons/javascript_icon.svg" alt="the javascript icon" class="svc-img">
                                 <h4 class="svc-title">Javascript</h4>
                                 <p class="svc-text">My favorite language overall, JS is a thing I like to work with. Everything done on this site is hand-made with pure vanilla JS.</p>
                             </div>
@@ -214,20 +214,23 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
             <div class="section_content">
                 <form class="contact-form" action="./assets/scripts/form.php">
                     <div class="question-wrapper">
-                        <div class="form-question" index="0">
-                            <label for="identity">Who are you ?</label>
+                        <div class="form-question">
+                            <label>Who are you ?</label>
                             <input type="text" name="identity" placeholder="Mohamed Lee" required>
                             <span class="underline"></span>
                         </div>
-                        <div class="form-question" index="1">
-                            <label for="identity">What's your email adress ?</label>
+                        <div class="form-question">
+                            <label>What's your email adress ?</label>
                             <input type="text" name="email" placeholder="contact@entreprise.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                             <span class="underline"></span>
                         </div>
-                        <div class="form-question" index="2">
-                            <label for="identity">What do you want to tell me ?</label>
+                        <div class="form-question">
+                            <label>What do you want to tell me ?</label>
                             <input type="text" name="message" placeholder="Hey ! I like the background color !" required>
                             <span class="underline"></span>
+                        </div>
+                        <div class="form-result">
+
                         </div>
                     </div>
                     <div class="button-wrapper">

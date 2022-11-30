@@ -9,6 +9,31 @@ const btn_next = document.querySelector(".form-btn-next");
 const question_array = document.querySelectorAll(".form-question");
 const input_array = document.querySelectorAll("input[type='text']");
 
+const shake_animation = [
+    {
+        transform: "translate3d(0, 0, 0)",
+    },
+    {
+        transform: "translate3d(4px, 0, 0)",
+    },
+
+    {
+        transform: "translate3d(-4px, 0, 0)",
+    },
+
+    {
+        transform: "translate3d(3px, 0, 0)",
+    },
+
+    {
+        transform: "translate3d(-3px, 0, 0)",
+    },
+
+    {
+        transform: "translate3d(0, 0, 0)",
+    },
+];
+
 // FORM WRAPPER STYLE to get question height
 let question_index = 0;
 
@@ -106,9 +131,5 @@ function changeQuestionView() {
 
 function error() {
     input_array[question_index].focus();
-
-    question_array[question_index].classList.add("err");
-    setTimeout(() => {
-        question_array[question_index].classList.remove("err");
-    }, 500);
+    question_array[question_index].animate(shake_animation, { duration: 500, easing: "ease-in-out" });
 }
