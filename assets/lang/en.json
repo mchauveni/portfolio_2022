@@ -1,5 +1,6 @@
 {
-    "main_title": ["Hey,", "<em class='title'>Chaosbeing</em> here."],
+    "navbar": ["<span class='color'>01.</span> About", "<span class='color'>02.</span> Works", "<span class='color'>03.</span> Skills", "<span class='color'>04.</span> Hobbies", "<span class='color'>05.</span> Contact"],
+    "main_title": ["Hey,", "<em>Mathéo</em> here."],
     "main_subtitle": "Trying my best in life to get things done, please take a look around to get to know me.",
     "about_title": "About me",
     "about_text": ["I am currently studying in internet and multimedia technologies in France. Trying some shit out, i’ll probably do something great one day.", "I started being interessed in coding with Discord bots, trying out Discord.js module. Then I chose every coding path at school, because I had it in mind.", "Today I’m trying to get my life together and struggle to get things done."],
