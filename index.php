@@ -230,7 +230,8 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
                             <span class="underline"></span>
                         </div>
                         <div class="form-result">
-
+                            <img src="./assets/img/ok-circle.svg" class="result-icon" alt="">
+                            <p>Bien ouej mon reuf le form est bien envoyé</p>
                         </div>
                     </div>
                     <div class="button-wrapper">

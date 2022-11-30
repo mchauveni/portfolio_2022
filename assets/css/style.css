@@ -322,10 +322,6 @@ header nav ul {
     color: var(--bg-secondary);
 }
 
-.form-question input:focus+.underline {
-    transform: scale(1);
-}
-
 .underline {
     display: block;
     position: absolute;
@@ -336,6 +332,22 @@ header nav ul {
     background-color: var(--txt-secondary);
     transform: scale(0, 1);
     transition: all 300ms ease-in;
+}
+
+.form-question input:focus+.underline {
+    transform: scale(1);
+}
+
+.form-result {
+    padding: 2rem;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.result-icon {
+    height: 100%;
 }
 
 .button-wrapper {
