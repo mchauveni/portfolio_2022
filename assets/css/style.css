@@ -343,11 +343,12 @@ header nav ul {
     height: 150px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .result-icon {
     height: 100%;
+    margin: 0 2rem;
 }
 
 .button-wrapper {
@@ -369,17 +370,14 @@ header nav ul {
     outline: none;
 }
 
-.form-btn-next {
-    cursor: pointer;
-}
-
+.form-btn-next,
 .form-btn-prev {
     opacity: 0;
     transition: 300ms;
 }
 
+.form-btn-next.visible,
 .form-btn-prev.visible {
-    display: block;
     opacity: 1;
     cursor: pointer;
 }

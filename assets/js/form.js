@@ -1,13 +1,21 @@
 /* TO REMLOVE LATER, ITS JUST HERE FOR CONVENIENCE BECAUSE RELOADING THE PAGE TAKES ME LIKE ALL THE WAY UP EVERYTIME */
 window.scrollTo(0, 5000);
 
-const form = document.querySelector(".contact-form");
-const question_wrapper = document.querySelector(".question-wrapper");
-const question_array = document.querySelectorAll(".form-question");
-const input_array = document.querySelectorAll("input[type='text']");
-const btn_prev = document.querySelector(".form-btn-prev");
-const btn_next = document.querySelector(".form-btn-next");
-const form_result_div = document.querySelector(".form-result");
+const $ = (el) => {
+    return document.querySelector(el);
+};
+const $$ = (els) => {
+    return document.querySelectorAll(els);
+};
+
+const form = $(".contact-form");
+const question_wrapper = $(".question-wrapper");
+const question_array = $$(".form-question");
+const input_array = $$("input[type='text']");
+const btn_wrapper = $(".button-wrapper");
+const btn_prev = $(".form-btn-prev");
+const btn_next = $(".form-btn-next");
+const form_result_div = $(".form-result");
 
 const shake_animation = [
     {
@@ -91,6 +99,7 @@ function nextQuestion() {
             break;
         case 2:
             submitForm();
+            btn_next.classList.remove("visible");
             break;
     }
 }
@@ -107,6 +116,13 @@ function previousQuestion() {
         case 2:
             question_index--;
             btn_next.innerHTML = "Next";
+            btn_next.classList.add("visible");
+            changeQuestionView();
+            break;
+        case 3:
+            question_index = 0;
+            btn_next.classList.add("visible");
+            btn_prev.classList.remove("visible");
             changeQuestionView();
             break;
     }
@@ -125,12 +141,20 @@ function submitForm() {
 
     fetch(form.action, options)
         .then((response) => {
-            console.log("Réponse serveur :");
-            console.log(response);
+            return response.text();
         })
         .then((server) => {
-            console.log("État serveur ?");
-            console.log(server);
+            server = JSON.parse(server);
+            if (!server.status) {
+                question_index = 3;
+                $(".result-txt").innerHTML = server.err + " " + server.emoji;
+                $(".result-icon").src = "./assets/img/err-circle.svg";
+            } else {
+                $(".result-txt").innerHTML = "Le message a bien été envoyé ! " + server.emoji;
+                $(".result-icon").src = "./assets/img/ok-circle.svg";
+                btn_next.classList.remove("visible");
+                btn_prev.classList.remove("visible");
+            }
         });
 
     changeQuestionView(true);
