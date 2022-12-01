@@ -52,7 +52,23 @@ header nav ul {
     flex-direction: row;
     align-items: center;
     gap: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.rem;
+}
+
+header li,
+header a {
+    display: block;
+    text-decoration: none;
+}
+
+header li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    padding: 2rem 0.5rem;
 }
 
 #hero {
@@ -65,11 +81,12 @@ header nav ul {
     justify-content: center;
 }
 
-#hero h1 {
+#hero .main-title {
     color: white;
+    margin: 0;
 }
 
-#hero>p {
+#hero>h1 {
     width: 50%;
 }
 

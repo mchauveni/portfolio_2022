@@ -30,9 +30,9 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
     </header>
     <main>
         <section id="hero">
-            <h1><?php echo $texts->main_title[0]; ?></h1>
-            <h1><?php echo $texts->main_title[1]; ?></h1>
-            <p class="bt"><?php echo $texts->main_subtitle; ?></p>
+            <p class="main-title"><?php echo $texts->main_title[0]; ?></p>
+            <p class="main-title"><?php echo $texts->main_title[1]; ?></p>
+            <h1 class=""><?php echo $texts->main_subtitle; ?></h1>
         </section>
 
         <section id="about">

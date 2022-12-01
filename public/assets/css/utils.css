@@ -77,17 +77,17 @@ body {
     counter-reset: sectindex 0;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.main-title {
     font-family: "Righteous";
     color: var(--txt-secondary);
 }
 
-h1 {
+.main-title {
     font-size: clamp(2rem, 10vw, 6rem);
 }
 

@@ -1,5 +1,5 @@
 /* TO REMLOVE LATER, ITS JUST HERE FOR CONVENIENCE BECAUSE RELOADING THE PAGE TAKES ME LIKE ALL THE WAY UP EVERYTIME */
-window.scrollTo(0, 5000);
+//window.scrollTo(0, 5000);
 
 const $ = (el) => {
     return document.querySelector(el);
@@ -80,7 +80,12 @@ btn_prev.addEventListener("click", (e) => {
 input_array.forEach((input) => {
     input.addEventListener("keydown", (e) => {
         if (e.key === "Enter") {
-            nextQuestion();
+            e.preventDefault();
+            if (input_array[question_index].value.trim() === "") {
+                error();
+            } else {
+                nextQuestion();
+            }
         }
     });
 });
