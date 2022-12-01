@@ -7,6 +7,7 @@ $good_array = ["( ˇ෴ˇ )", "ヽ(´▽`)/", "♪♪ ヽ(ˇ∀ˇ )ゞ", "(•̀
 if ($_SERVER['REQUEST_METHOD'] != 'POST') {
     echo "<p>Vous n'avez AUCUN droit d'être ici :( rentrez chez vous</p>";
 }
+
 $err = false;
 /* TESTS */
 foreach ($_POST as $inputs) {
