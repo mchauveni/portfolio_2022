@@ -20,11 +20,11 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
         </div>
         <nav>
             <ul>
-                <li><?php echo $texts->navbar[0]; ?></li>
-                <li><?php echo $texts->navbar[1]; ?></li>
-                <li><?php echo $texts->navbar[2]; ?></li>
-                <li><?php echo $texts->navbar[3]; ?></li>
-                <li><?php echo $texts->navbar[4]; ?></li>
+                <li><a href="#"><?php echo $texts->navbar[0]; ?></a></li>
+                <li><a href="#"><?php echo $texts->navbar[1]; ?></a></li>
+                <li><a href="#"><?php echo $texts->navbar[2]; ?></a></li>
+                <li><a href="#"><?php echo $texts->navbar[3]; ?></a></li>
+                <li><a href="#"><?php echo $texts->navbar[4]; ?></a></li>
             </ul>
         </nav>
     </header>
@@ -212,7 +212,7 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
         <section id="contact">
             <h2 class="section_title">Contact me</h2>
             <div class="section_content">
-                <form class="contact-form" action="./assets/scripts/form.php">
+                <form class="contact-form" action="../assets/script.php">
                     <div class="question-wrapper">
                         <div class="form-question">
                             <label>Who are you ?</label>
