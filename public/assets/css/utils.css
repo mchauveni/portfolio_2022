@@ -72,6 +72,10 @@
     font-family: "K2D";
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--bg-main);
     counter-reset: sectindex 0;
