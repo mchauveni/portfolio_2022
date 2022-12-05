@@ -10,7 +10,7 @@
 </head>
 
 <?php
-$texts = json_decode(file_get_contents('./assets/lang/en.json'));
+$texts = json_decode(file_get_contents('../src/data/en.json'));
 ?>
 
 <body>
@@ -20,9 +20,9 @@ $texts = json_decode(file_get_contents('./assets/lang/en.json'));
         </div>
         <nav>
             <ul>
-                <li><a href="#hero"><?php echo $texts->navbar[0]; ?></a></li>
-                <li><a href="#about"><?php echo $texts->navbar[1]; ?></a></li>
-                <li><a href="#works"><?php echo $texts->navbar[2]; ?></a></li>
+                <li><a href="#about"><?php echo $texts->navbar[0]; ?></a></li>
+                <li><a href="#works"><?php echo $texts->navbar[1]; ?></a></li>
+                <li><a href="#skills"><?php echo $texts->navbar[2]; ?></a></li>
                 <li><a href="#hobbies"><?php echo $texts->navbar[3]; ?></a></li>
                 <li><a href="#contact"><?php echo $texts->navbar[4]; ?></a></li>
             </ul>
