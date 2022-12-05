@@ -76,6 +76,17 @@ html {
     scroll-behavior: smooth;
 }
 
+main {
+    min-width: 100vh;
+    margin: 0 auto;
+}
+
+section {
+    max-width: 1000px;
+    width: 80%;
+    margin: 7rem auto;
+}
+
 body {
     background-color: var(--bg-main);
     counter-reset: sectindex 0;
@@ -93,6 +104,11 @@ h6,
 
 .main-title {
     font-size: clamp(2rem, 10vw, 6rem);
+}
+
+.almost-main-title {
+    font-size: clamp(2rem, 10vw, 3rem);
+    margin: 0;
 }
 
 h2 {

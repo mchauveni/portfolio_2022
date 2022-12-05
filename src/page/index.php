@@ -14,34 +14,21 @@ $texts = json_decode(file_get_contents('../src/data/en.json'));
 ?>
 
 <body>
-    <header>
-        <div class="logo_container">
-            <img src="./TOREMOVEFROMPROD/some_sort_of_logo.png" alt="">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#about"><?php echo $texts->navbar[0]; ?></a></li>
-                <li><a href="#works"><?php echo $texts->navbar[1]; ?></a></li>
-                <li><a href="#skills"><?php echo $texts->navbar[2]; ?></a></li>
-                <li><a href="#hobbies"><?php echo $texts->navbar[3]; ?></a></li>
-                <li><a href="#contact"><?php echo $texts->navbar[4]; ?></a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php require '../src/parts/index_header.php'; ?>
     <main>
         <section id="hero">
-            <p class="main-title"><?php echo $texts->main_title[0]; ?></p>
-            <p class="main-title"><?php echo $texts->main_title[1]; ?></p>
-            <h1 class=""><?php echo $texts->main_subtitle; ?></h1>
+            <p class="main-title"><?php echo $texts->index_main_title[0]; ?></p>
+            <p class="main-title"><?php echo $texts->index_main_title[1]; ?></p>
+            <h1 class=""><?php echo $texts->index_main_subtitle; ?></h1>
         </section>
 
         <section id="about">
-            <h2 class="section_title"><?php echo $texts->about_title; ?></h2>
+            <h2 class="section_title"><?php echo $texts->index_about_title; ?></h2>
             <div class="section_content">
                 <div class="text">
-                    <p><?php echo $texts->about_text[0]; ?></p>
-                    <p><?php echo $texts->about_text[1]; ?></p>
-                    <p><?php echo $texts->about_text[2]; ?></p>
+                    <p><?php echo $texts->index_about_text[0]; ?></p>
+                    <p><?php echo $texts->index_about_text[1]; ?></p>
+                    <p><?php echo $texts->index_about_text[2]; ?></p>
                 </div>
                 <div class="img-wrapper">
                     <img src="./assets/img/hello.svg" alt="" id="hello_img">
@@ -50,21 +37,21 @@ $texts = json_decode(file_get_contents('../src/data/en.json'));
         </section>
 
         <section id="works">
-            <h2 class="section_title"><?php echo $texts->work_title; ?></h2>
+            <h2 class="section_title"><?php echo $texts->index_work_title; ?></h2>
             <div class="section_content">
                 <div class="work-sect">
                     <div class="ws-header">
                         <div class="ws-content">
-                            <h3><?php echo $texts->work_sect[0]->title; ?></h3>
-                            <p><?php echo $texts->work_sect[0]->text; ?></p>
+                            <h3><?php echo $texts->index_work_sect[0]->title; ?></h3>
+                            <p><?php echo $texts->index_work_sect[0]->text; ?></p>
                         </div>
                         <div class="ws-icon"></div>
                     </div>
                     <div class="preview">
                         <a href=""></a>
                         <a href=""></a>
-                        <a href="" class="preview-explore">
-                            <p><?php echo $texts->work_sect_button; ?></p>
+                        <a href="./websites" class="preview-explore">
+                            <p><?php echo $texts->index_work_sect_button; ?></p>
                         </a>
                     </div>
                 </div>
@@ -72,8 +59,8 @@ $texts = json_decode(file_get_contents('../src/data/en.json'));
                 <div class="work-sect">
                     <div class="ws-header">
                         <div class="ws-content">
-                            <h3><?php echo $texts->work_sect[1]->title; ?></h3>
-                            <p><?php echo $texts->work_sect[1]->text; ?></p>
+                            <h3><?php echo $texts->index_work_sect[1]->title; ?></h3>
+                            <p><?php echo $texts->index_work_sect[1]->text; ?></p>
                         </div>
                         <div class="ws-icon"></div>
                     </div>
@@ -81,7 +68,7 @@ $texts = json_decode(file_get_contents('../src/data/en.json'));
                         <a href=""></a>
                         <a href=""></a>
                         <a href="" class="preview-explore">
-                            <p><?php echo $texts->work_sect_button; ?></p>
+                            <p><?php echo $texts->index_work_sect_button; ?></p>
                         </a>
                     </div>
                 </div>
@@ -181,30 +168,30 @@ $texts = json_decode(file_get_contents('../src/data/en.json'));
         </section>
 
         <section id="hobbies">
-            <h2 class="section_title"><?php echo $texts->hobbies_title; ?></h2>
+            <h2 class="section_title"><?php echo $texts->index_hobbies_title; ?></h2>
             <div class="section_content">
                 <div class="card">
                     <div class="img-wrapper">
                         <img src="./assets/img/hobbies_icons/coding.png" alt="">
                     </div>
-                    <h2><?php echo $texts->hobbies_cards[0]->title ?></h2>
-                    <p><?php echo $texts->hobbies_cards[0]->text ?></p>
+                    <h2><?php echo $texts->index_hobbies_cards[0]->title ?></h2>
+                    <p><?php echo $texts->index_hobbies_cards[0]->text ?></p>
                 </div>
 
                 <div class="card">
                     <div class="img-wrapper">
                         <img src="./assets/img/hobbies_icons/design.png" alt="">
                     </div>
-                    <h2><?php echo $texts->hobbies_cards[1]->title ?></h2>
-                    <p><?php echo $texts->hobbies_cards[1]->text ?></p>
+                    <h2><?php echo $texts->index_hobbies_cards[1]->title ?></h2>
+                    <p><?php echo $texts->index_hobbies_cards[1]->text ?></p>
                 </div>
 
                 <div class="card">
                     <div class="img-wrapper">
                         <img src="./assets/img/hobbies_icons/gaming.png" alt="">
                     </div>
-                    <h2><?php echo $texts->hobbies_cards[2]->title ?></h2>
-                    <p><?php echo $texts->hobbies_cards[2]->text ?></p>
+                    <h2><?php echo $texts->index_hobbies_cards[2]->title ?></h2>
+                    <p><?php echo $texts->index_hobbies_cards[2]->text ?></p>
                 </div>
             </div>
         </section>
@@ -243,31 +230,7 @@ $texts = json_decode(file_get_contents('../src/data/en.json'));
         </section>
     </main>
 
-    <footer>
-        <div class="footer-links">
-            <h3>Links</h3>
-            <ul>
-                <li><a href="">Website list</a></li>
-                <li><a href="">Illustration list</a></li>
-            </ul>
-        </div>
-        <div class="footer-socials">
-            <h3>Socials</h3>
-            <ul>
-                <li><a href="">Github</a></li>
-                <li><a href="">LinkedIn</a></li>
-                <li><a href="">Twitter</a></li>
-                <li><a href="">Discord</a></li>
-            </ul>
-        </div>
-        <div class="footer-legal">
-            <h3>Legal Shit</h3>
-            <ul>
-                <li><a href="">Term of Use</a></li>
-                <li><a href="">Legal mentions</a></li>
-            </ul>
-        </div>
-    </footer>
+    <?php require '../src/parts/footer.php' ?>
 
     <script src="./assets/js/typewriter.js"></script>
     <script src="./assets/js/hello.js"></script>

@@ -4,8 +4,8 @@ Just because i don't trust my USB key lol
 TODO :
 - Clean EN
 - FR version
-- Sanitize form data
-- Make an actual PHP script
+- Try another avatar for Hello
+- Change/add hobbies icons
 
-- DO THE WORK PAGE (ILLUSTRATION & WEBSITES)
+- (currently) DO THE WORK PAGE (ILLUSTRATION & WEBSITES)
 - ADD WEBSITES LMAO

@@ -1,11 +1,11 @@
 {
-    "navbar": ["<span class='color'>01.</span> About", "<span class='color'>02.</span> Works", "<span class='color'>03.</span> Skills", "<span class='color'>04.</span> Hobbies", "<span class='color'>05.</span> Contact"],
-    "main_title": ["Hey,", "<em>Mathéo</em> here."],
-    "main_subtitle": "Trying my best in life to get things done, please take a look around to get to know me.",
-    "about_title": "About me",
-    "about_text": ["I am currently studying in internet and multimedia technologies in France. Trying some shit out, i’ll probably do something great one day.", "I started being interessed in coding with Discord bots, trying out Discord.js module. Then I chose every coding path at school, because I had it in mind.", "Today I’m trying to get my life together and struggle to get things done."],
-    "work_title": "My works",
-    "work_sect": [
+    "index_navbar": ["<span class='color'>01.</span> About", "<span class='color'>02.</span> Works", "<span class='color'>03.</span> Skills", "<span class='color'>04.</span> Hobbies", "<span class='color'>05.</span> Contact"],
+    "index_main_title": ["Hey,", "<em>Mathéo</em> here."],
+    "index_main_subtitle": "Trying my best in life to get things done, please take a look around to get to know me.",
+    "index_about_title": "About me",
+    "index_about_text": ["I am currently studying in internet and multimedia technologies in France. Trying some shit out, i’ll probably do something great one day.", "I started being interessed in coding with Discord bots, trying out Discord.js module. Then I chose every coding path at school, because I had it in mind.", "Today I’m trying to get my life together and struggle to get things done."],
+    "index_work_title": "My works",
+    "index_work_sect": [
         {
             "title": "Websites",
             "text": "Get to see the collection of my websites. They’re all trash but at least i’ve done some things i guess ? idk what it’s worth in the end"
@@ -15,9 +15,9 @@
             "text": "I’ve done some shit with illustrator and/or photoshop, so here they are... Also i’ve done inktober and it was fun ig"
         }
     ],
-    "work_sect_button": "See more",
-    "hobbies_title": "Hobbies",
-    "hobbies_cards": [
+    "index_work_sect_button": "See more",
+    "index_hobbies_title": "Hobbies",
+    "index_hobbies_cards": [
         {
             "title": "Coding",
             "text": "I like code, i eat GPU and think like a bot bro"
