@@ -141,12 +141,7 @@
     background: none;
 }
 
-.greenit {
-    background: center / cover no-repeat url(../img/green-it.png);
-}
-
 .preview a {
-    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;

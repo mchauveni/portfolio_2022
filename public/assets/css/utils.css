@@ -83,9 +83,8 @@ main {
 }
 
 section {
-    max-width: 1000px;
-    width: 80%;
-    margin: 7rem auto;
+    max-width: 55%;
+    margin: auto;
 }
 
 body {
@@ -152,6 +151,10 @@ span.color {
     color: var(--txt-secondary);
 }
 
+a {
+    text-decoration: none;
+}
+
 /* "bold text" lol lost myself */
 .bt {
     font-size: 1.5rem;
@@ -160,4 +163,8 @@ span.color {
 p {
     font-size: 1.2rem;
     margin: 1.25rem 0;
+}
+
+.bg.greenit {
+    background: center / cover no-repeat url(../img/green-it.png);
 }

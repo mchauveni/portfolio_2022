@@ -21,13 +21,41 @@ $texts = json_decode(file_get_contents('../src/data/en.json'));
             <h1 class="main-title">Websites</h1>
         </section>
         <section class="list">
-            <div class="card-wrapper">
-                <p>Green IT</p>
-            </div>
+            <a href="" class="card HOVER">
+                <div class="card-header bg greenit">
+                </div>
+                <p class="card-title">Green IT</p>
+            </a>
+            <a href="" class="card HOVER">
+                <div class="card-header bg greenit">
+                </div>
+                <p class="card-title">Green IT</p>
+            </a>
+            <a href="" class="card HOVER">
+                <div class="card-header bg greenit">
+                </div>
+                <p class="card-title">Green IT</p>
+            </a>
+            <a href="" class="card HOVER">
+                <div class="card-header bg greenit">
+                </div>
+                <p class="card-title">Green IT</p>
+            </a>
+            <a href="" class="card HOVER">
+                <div class="card-header bg greenit">
+                </div>
+                <p class="card-title">Green IT</p>
+            </a>
+            <a href="" class="card HOVER">
+                <div class="card-header bg greenit">
+                </div>
+                <p class="card-title">Green IT</p>
+            </a>
         </section>
     </main>
 
     <?php require '../src/parts/footer.php' ?>
+    <script src="./assets/ripple.js"></script>
 </body>
 
 </html>

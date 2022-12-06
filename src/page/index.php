@@ -48,7 +48,7 @@ $texts = json_decode(file_get_contents('../src/data/en.json'));
                         <div class="ws-icon"></div>
                     </div>
                     <div class="preview">
-                        <a href="" class="greenit"></a>
+                        <a href="" class="bg greenit"></a>
                         <a href=""></a>
                         <a href="./websites" class="preview-explore">
                             <p><?php echo $texts->index_work_sect_button; ?></p>

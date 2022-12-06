@@ -17,6 +17,7 @@ switch ($route) {
         require 'page/index.php';
         break;
     case '/websites':
+    case '/website':
         require 'page/websites.php';
         break;
 }
