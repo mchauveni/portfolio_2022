@@ -121,13 +121,31 @@
 }
 
 .preview a {
+    position: relative;
     display: block;
     border-radius: 20px;
     height: 100%;
     background-color: var(--bg-main);
 }
 
-.preview .preview-explore {
+.preview a:not(.preview-explore)::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-secondary-opacity);
+    transition: 300ms;
+}
+
+.preview a:hover::before {
+    background: none;
+}
+
+.greenit {
+    background: center / cover no-repeat url(../img/green-it.png);
+}
+
+.preview a {
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -137,10 +155,6 @@
 
 .preview .preview-explore:hover {
     background-color: var(--txt-secondary);
-}
-
-.preview .preview-explore:hover p {
-    color: var(--bg-main);
 }
 
 .skill-nav {

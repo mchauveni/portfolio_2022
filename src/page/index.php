@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <title>Porte folio ^^</title>
 </head>
 
@@ -48,7 +48,7 @@ $texts = json_decode(file_get_contents('../src/data/en.json'));
                         <div class="ws-icon"></div>
                     </div>
                     <div class="preview">
-                        <a href=""></a>
+                        <a href="" class="greenit"></a>
                         <a href=""></a>
                         <a href="./websites" class="preview-explore">
                             <p><?php echo $texts->index_work_sect_button; ?></p>

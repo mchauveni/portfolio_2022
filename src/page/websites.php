@@ -21,6 +21,9 @@ $texts = json_decode(file_get_contents('../src/data/en.json'));
             <h1 class="main-title">Websites</h1>
         </section>
         <section class="list">
+            <div class="card-wrapper">
+                <p>Green IT</p>
+            </div>
         </section>
     </main>
 
