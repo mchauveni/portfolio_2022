@@ -13,3 +13,4 @@ TODO :
 -   add illustrations collection
 -   make individual pages for illustrations/websites
 -   THINIK ABOUT ILLUSTRATIONS AS COLLECTIONS (JSON incident)
+-   PUT THE FUCKING CIRCLES IN THE MAIN HERO YOU MORON
