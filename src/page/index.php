@@ -10,7 +10,8 @@
 </head>
 
 <?php
-$texts = json_decode(file_get_contents('../src/data/en.json'));
+$texts = json_decode(file_get_contents('../src/data/lang/en.json'));
+$websites = json_decode(file_get_contents('../src/data/work_content/websites.json'));
 ?>
 
 <body>
@@ -48,8 +49,8 @@ $texts = json_decode(file_get_contents('../src/data/en.json'));
                         <div class="ws-icon"></div>
                     </div>
                     <div class="preview">
-                        <a href="" class="bg greenit"></a>
-                        <a href=""></a>
+                        <a href="" class="bg <?php echo $websites[count($websites) - 1]->class ?>"></a>
+                        <a href="" class="bg <?php echo $websites[count($websites) - 2]->class ?>"></a>
                         <a href="./websites" class="preview-explore">
                             <p><?php echo $texts->index_work_sect_button; ?></p>
                         </a>

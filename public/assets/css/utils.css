@@ -128,7 +128,7 @@ h2.section_title {
 
 h2.section_title::before {
     counter-increment: sectindex 1;
-    content: "0" counter(sectindex) " -";
+    content: "0"counter(sectindex) " -";
     position: absolute;
     width: fit-content;
     left: 0;
@@ -166,5 +166,9 @@ p {
 }
 
 .bg.greenit {
-    background: center / cover no-repeat url(../img/green-it.png);
+    background: center / cover no-repeat url(../img/websites_screenshot/green-it.png);
+}
+
+.bg.lucdia {
+    background: center / cover no-repeat url(../img/websites_screenshot/lucdia.png);
 }

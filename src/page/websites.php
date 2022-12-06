@@ -10,7 +10,8 @@
 </head>
 
 <?php
-$texts = json_decode(file_get_contents('../src/data/en.json'));
+$texts = json_decode(file_get_contents('../src/data/lang/en.json'));
+$websites = json_decode(file_get_contents('../src/data/work_content/websites.json'));
 ?>
 
 <body>
@@ -21,36 +22,19 @@ $texts = json_decode(file_get_contents('../src/data/en.json'));
             <h1 class="main-title">Websites</h1>
         </section>
         <section class="list">
-            <a href="" class="card HOVER">
-                <div class="card-header bg greenit">
-                </div>
-                <p class="card-title">Green IT</p>
-            </a>
-            <a href="" class="card HOVER">
-                <div class="card-header bg greenit">
-                </div>
-                <p class="card-title">Green IT</p>
-            </a>
-            <a href="" class="card HOVER">
-                <div class="card-header bg greenit">
-                </div>
-                <p class="card-title">Green IT</p>
-            </a>
-            <a href="" class="card HOVER">
-                <div class="card-header bg greenit">
-                </div>
-                <p class="card-title">Green IT</p>
-            </a>
-            <a href="" class="card HOVER">
-                <div class="card-header bg greenit">
-                </div>
-                <p class="card-title">Green IT</p>
-            </a>
-            <a href="" class="card HOVER">
-                <div class="card-header bg greenit">
-                </div>
-                <p class="card-title">Green IT</p>
-            </a>
+            <?php
+            foreach ($websites as $website) {
+            ?>
+                <a href="" class="card HOVER">
+                    <div class="card-header bg <?php echo $website->class ?>">
+                    </div>
+                    <p class="card-title"><?php echo $website->title ?></p>
+                </a>
+            <?php
+            }
+
+            ?>
+
         </section>
     </main>
 
