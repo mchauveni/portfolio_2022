@@ -6,10 +6,10 @@ TODO :
 
 -   Clean EN
 -   FR version
--   (maybe) Try another avatar for Hello
+-   (maybe) Try another avatar for Hello (match color scheme)
 -   Change/add hobbies icons
 -   RESPONSIVE AAAAH
 -   add a cue to let know people where they are in the contact form (1/3 or 2/3 or 3/3)
-
--   (currently) DO THE WORK PAGE (ILLUSTRATION & WEBSITES)
--   ADD WEBSITES LMAO
+-   add illustrations collection
+-   make individual pages for illustrations/websites
+-   THINIK ABOUT ILLUSTRATIONS AS COLLECTIONS (JSON incident)
