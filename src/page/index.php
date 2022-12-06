@@ -77,40 +77,40 @@ $websites = json_decode(file_get_contents('../src/data/work_content/websites.jso
         </section>
 
         <section id="skills">
-            <h2 class="section_title">Skillzzz</h2>
+            <h2 class="section_title"><?php echo $texts->index_skills_title; ?></h2>
             <div class="section_content">
                 <div class="skill-nav">
                     <ul class="skill-nav-list">
-                        <li class="nav-item active">Langages</li>
-                        <li class="nav-item">Technologies</li>
-                        <li class="nav-item">Adobe</li>
-                        <li class="nav-item">Microsoft</li>
+                        <li class="nav-item active"><?php echo $texts->index_skills_view_nav[0]; ?></li>
+                        <li class="nav-item"><?php echo $texts->index_skills_view_nav[1]; ?></li>
+                        <li class="nav-item"><?php echo $texts->index_skills_view_nav[2]; ?></li>
+                        <li class="nav-item"><?php echo $texts->index_skills_view_nav[3]; ?></li>
                         <li class="slider"></li>
                     </ul>
                 </div>
                 <div class="skill-view">
                     <div class="langages">
-                        <h3>Langages</h3>
+                        <h3><?php echo $texts->index_skills_view[0]->title; ?></h3>
                         <div class="sv-content-wrapper">
                             <div class="svc-element">
                                 <img src="./assets/img/skill_icons/html_css_icon.svg" alt="icon that reminds the HTML and CSS icon" class="svc-img">
-                                <h4 class="svc-title">HTML / CSS</h4>
-                                <p class="svc-text">I used these throughout a lot of project, without any framework, templates or preprocessor of any kind. Pure plain old HTML and CSS.</p>
+                                <h4 class="svc-title"><?php echo $texts->index_skills_view[0]->index_skills_view_element[0]->title; ?></h4>
+                                <p class="svc-text"><?php echo $texts->index_skills_view[0]->index_skills_view_element[0]->content; ?></p>
                             </div>
                             <div class="svc-element">
                                 <img src="./assets/img/skill_icons/javascript_icon.svg" alt="the javascript icon" class="svc-img">
-                                <h4 class="svc-title">Javascript</h4>
-                                <p class="svc-text">My favorite language overall, JS is a thing I like to work with. Everything done on this site is hand-made with pure vanilla JS.</p>
+                                <h4 class="svc-title"><?php echo $texts->index_skills_view[0]->index_skills_view_element[1]->title; ?></h4>
+                                <p class="svc-text"><?php echo $texts->index_skills_view[0]->index_skills_view_element[1]->content; ?></p>
                             </div>
                             <div class="svc-element">
                                 <img src="./assets/img/skill_icons/php_sql_icon.svg" alt="" class="svc-img">
-                                <h4 class="svc-title">PHP / SQL</h4>
-                                <p class="svc-text">Mostly used in school, I know SQL basic concept. PHP on the other hand is also a language I love, because we can basically rule the web with it.</p>
+                                <h4 class="svc-title"><?php echo $texts->index_skills_view[0]->index_skills_view_element[2]->title; ?></h4>
+                                <p class="svc-text"><?php echo $texts->index_skills_view[0]->index_skills_view_element[2]->content; ?></p>
                             </div>
                             <div class="svc-element">
                                 <img src="./assets/img/skill_icons/java_icon.svg" alt="" class="svc-img">
-                                <h4 class="svc-title">Java</h4>
-                                <p class="svc-text">I'm not that good with Java, I used it over 2020-2021 with Netbeans, but that's about it.</p>
+                                <h4 class="svc-title"><?php echo $texts->index_skills_view[0]->index_skills_view_element[3]->title; ?></h4>
+                                <p class="svc-text"><?php echo $texts->index_skills_view[0]->index_skills_view_element[3]->content; ?></p>
                             </div>
                         </div>
                     </div>
@@ -119,8 +119,8 @@ $websites = json_decode(file_get_contents('../src/data/work_content/websites.jso
                         <div class="sv-content-wrapper">
                             <div class="svc-element">
                                 <img src="./assets/img/skill_icons/nodejs_icon.svg" alt="" class="svc-img">
-                                <h4 class="svc-title">Node.Js</h4>
-                                <p class="svc-text">I used it a lot for creating some Discord bots with DiscordJs, before I was good at coding.</p>
+                                <h4 class="svc-title"><?php echo $texts->index_skills_view[1]->index_skills_view_element[0]->title; ?></h4>
+                                <p class="svc-text"><?php echo $texts->index_skills_view[1]->index_skills_view_element[0]->content; ?></p>
                             </div>
                         </div>
                     </div>
@@ -129,23 +129,23 @@ $websites = json_decode(file_get_contents('../src/data/work_content/websites.jso
                         <div class="sv-content-wrapper">
                             <div class="svc-element">
                                 <img src="./assets/img/skill_icons/illustrator_icon.svg" alt="" class="svc-img">
-                                <h4 class="svc-title">Illustrator</h4>
-                                <p class="svc-text">I found myself fascinated by Illustrator, and used it a lot to create logos, infographics, and even some drawings !</p>
+                                <h4 class="svc-title"><?php echo $texts->index_skills_view[2]->index_skills_view_element[0]->title; ?></h4>
+                                <p class="svc-text"><?php echo $texts->index_skills_view[2]->index_skills_view_element[0]->content; ?></p>
                             </div>
                             <div class="svc-element">
                                 <img src="./assets/img/skill_icons/photoshop_icon.svg" alt="" class="svc-img">
-                                <h4 class="svc-title">Photoshop</h4>
-                                <p class="svc-text">During my youth, I NEEDED to know how to photoshop, because it was way too funny to see my teachers with pokeballs, trying to catch a pidgeon.</p>
+                                <h4 class="svc-title"><?php echo $texts->index_skills_view[2]->index_skills_view_element[1]->title; ?></h4>
+                                <p class="svc-text"><?php echo $texts->index_skills_view[2]->index_skills_view_element[1]->content; ?></p>
                             </div>
                             <div class="svc-element">
                                 <img src="./assets/img/skill_icons/premiere_icon.svg" alt="" class="svc-img">
-                                <h4 class="svc-title">Premiere Pro</h4>
-                                <p class="svc-text">I used it for some time, to do funy montages on youtube. Most of them are now deleted, and I would not show those who remains.</p>
+                                <h4 class="svc-title"><?php echo $texts->index_skills_view[2]->index_skills_view_element[2]->title; ?></h4>
+                                <p class="svc-text"><?php echo $texts->index_skills_view[2]->index_skills_view_element[2]->content; ?></p>
                             </div>
                             <div class="svc-element">
                                 <img src="./assets/img/skill_icons/aftereffects_icon.svg" alt="" class="svc-img">
-                                <h4 class="svc-title">After Effects</h4>
-                                <p class="svc-text">I'm quite a beginner but I roughly know the bases and can do basic animations.</p>
+                                <h4 class="svc-title"><?php echo $texts->index_skills_view[2]->index_skills_view_element[3]->title; ?></h4>
+                                <p class="svc-text"><?php echo $texts->index_skills_view[2]->index_skills_view_element[3]->content; ?></p>
                             </div>
                         </div>
                     </div>
@@ -154,13 +154,13 @@ $websites = json_decode(file_get_contents('../src/data/work_content/websites.jso
                         <div class="sv-content-wrapper">
                             <div class="svc-element">
                                 <img src="./assets/img/skill_icons/excel_icon.svg" alt="" class="svc-img">
-                                <h4 class="svc-title">Excel</h4>
-                                <p class="svc-text">I did more excel than I would like to admit, doing minmaxing for RPGs. I still have some sheets lying around, but most of these were temporary.</p>
+                                <h4 class="svc-title"><?php echo $texts->index_skills_view[3]->index_skills_view_element[0]->title; ?></h4>
+                                <p class="svc-text"><?php echo $texts->index_skills_view[3]->index_skills_view_element[0]->content; ?></p>
                             </div>
                             <div class="svc-element">
                                 <img src="./assets/img/skill_icons/words_icon.svg" alt="" class="svc-img">
-                                <h4 class="svc-title">Words</h4>
-                                <p class="svc-text">Everyone needs to know words, and so do I. I can type quite fast, and am used to the interface.</p>
+                                <h4 class="svc-title"><?php echo $texts->index_skills_view[3]->index_skills_view_element[1]->title; ?></h4>
+                                <p class="svc-text"><?php echo $texts->index_skills_view[3]->index_skills_view_element[1]->content; ?></p>
                             </div>
                         </div>
                     </div>

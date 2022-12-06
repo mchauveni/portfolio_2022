@@ -1,9 +1,22 @@
 {
-    "index_navbar": ["<span class='color'>01.</span> About", "<span class='color'>02.</span> Works", "<span class='color'>03.</span> Skills", "<span class='color'>04.</span> Hobbies", "<span class='color'>05.</span> Contact"],
-    "index_main_title": ["Hey,", "<em>Mathéo</em> here."],
+    "index_navbar": [
+        "<span class='color'>01.</span> About",
+        "<span class='color'>02.</span> Works",
+        "<span class='color'>03.</span> Skills",
+        "<span class='color'>04.</span> Hobbies",
+        "<span class='color'>05.</span> Contact"
+    ],
+    "index_main_title": [
+        "Hey,",
+        "<em>Mathéo</em> here."
+    ],
     "index_main_subtitle": "Trying my best in life to get things done, please take a look around to get to know me.",
     "index_about_title": "About me",
-    "index_about_text": ["I am currently studying in internet and multimedia technologies in France. Trying some shit out, i’ll probably do something great one day.", "I started being interessed in coding with Discord bots, trying out Discord.js module. Then I chose every coding path at school, because I had it in mind.", "Today I’m trying to get my life together and struggle to get things done."],
+    "index_about_text": [
+        "I am currently studying in internet and multimedia technologies in France. Trying some shit out, i’ll probably do something great one day.",
+        "I started being interessed in coding with Discord bots, trying out Discord.js module. Then I chose every coding path at school, because I had it in mind.",
+        "Today I’m trying to get my life together and struggle to get things done."
+    ],
     "index_work_title": "My works",
     "index_work_sect": [
         {
@@ -29,6 +42,79 @@
         {
             "title": "Gaming",
             "text": "I like gamedesign and playing games so maybe one day i’ll work for some company uwu"
+        }
+    ],
+    "index_skills_title": "Skills",
+    "index_skills_view_nav": [
+        "Langages",
+        "Technologies",
+        "Adobe",
+        "Microsoft"
+    ],
+    "index_skills_view": [
+        {
+            "title": "Languages",
+            "index_skills_view_element": [
+                {
+                    "title": "HTML / CSS",
+                    "content": "I used these throughout a lot of project, without any framework, templates or preprocessor of any kind. Pure plain old HTML and CSS."
+                },
+                {
+                    "title": "Javascript",
+                    "content": "My favorite language overall, JS is a thing I like to work with. Everything done on this site is hand-made with pure vanilla JS."
+                },
+                {
+                    "title": "PHP / SQL",
+                    "content": "Mostly used in school, I know SQL basic concept. PHP on the other hand is also a language I love, because we can basically rule the web with it."
+                },
+                {
+                    "title": "Java",
+                    "content": "I'm not that good with Java, I used it over 2020-2021 with Netbeans, but that's about it."
+                }
+            ]
+        },
+        {
+            "title": "Technologies",
+            "index_skills_view_element": [
+                {
+                    "title": "Node.Js",
+                    "content": "I used it a lot for creating some Discord bots with DiscordJs, before I was good at coding."
+                }
+            ]
+        },
+        {
+            "title": "Adobe",
+            "index_skills_view_element": [
+                {
+                    "title": "Illustrator",
+                    "content": "I found myself fascinated by Illustrator, and used it a lot to create logos, infographics, and even some drawings !"
+                },
+                {
+                    "title": "Photoshop",
+                    "content": "During my youth, I NEEDED to know how to photoshop, because it was way too funny to see my teachers with pokeballs, trying to catch a pidgeon."
+                },
+                {
+                    "title": "Premiere Pro",
+                    "content": "I used it for some time, to do funy montages on youtube. Most of them are now deleted, and I would not show those who remains."
+                },
+                {
+                    "title": "After Effects",
+                    "content": "I'm quite a beginner but I roughly know the bases and can do basic animations."
+                }
+            ]
+        },
+        {
+            "title": "Microsoft",
+            "index_skills_view_element": [
+                {
+                    "title": "Excel",
+                    "content": "I did more excel than I would like to admit, doing minmaxing for RPGs. I still have some sheets lying around, but most of these were temporary."
+                },
+                {
+                    "title": "Words",
+                    "content": "Everyone needs to know words, and so do I. I can type quite fast, and am used to the interface."
+                }
+            ]
         }
     ]
 }
