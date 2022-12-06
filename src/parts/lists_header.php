@@ -6,7 +6,7 @@
         <ul>
             <li><a href="/">Accueil</a></li>
             <li><a href="/websites">Sites Web</a></li>
-            <li><a href="#about">Illustrations</a></li>
+            <li><a href="/illustrations">Illustrations</a></li>
         </ul>
     </nav>
 </header>

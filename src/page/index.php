@@ -12,6 +12,7 @@
 <?php
 $texts = json_decode(file_get_contents('../src/data/lang/en.json'));
 $websites = json_decode(file_get_contents('../src/data/work_content/websites.json'));
+$illustrations = json_decode(file_get_contents('../src/data/work_content/illustrations.json'));
 ?>
 
 <body>
@@ -66,9 +67,9 @@ $websites = json_decode(file_get_contents('../src/data/work_content/websites.jso
                         <div class="ws-icon"></div>
                     </div>
                     <div class="preview">
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href="" class="preview-explore">
+                        <a href="" class="bg <?php echo $illustrations[count($illustrations) - 2]->class ?>"></a>
+                        <a href="" class="bg <?php echo $illustrations[count($illustrations) - 2]->class ?>"></a>
+                        <a href="./illustrations" class="preview-explore">
                             <p><?php echo $texts->index_work_sect_button; ?></p>
                         </a>
                     </div>

@@ -9,7 +9,7 @@ $route = trim(str_replace(APP_ROOT_URL, '', $url['path']));
 $route = $route === '' ? '/' : $route;
 switch ($route) {
     default:
-        require 'page/404.php';
+        require 'page/index.php';
         break;
     case '/index':
     case '/home':
@@ -19,5 +19,9 @@ switch ($route) {
     case '/websites':
     case '/website':
         require 'page/websites.php';
+        break;
+    case '/illustrations':
+    case '/illustration':
+        require 'page/illustrations.php';
         break;
 }
