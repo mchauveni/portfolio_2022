@@ -8,7 +8,7 @@ IMPORTANT :
 -   Clean EN
 -   FR version
 -   RESPONSIVE AAAAH
--   add illustrations collection
+-   MAKE COLLECTIONS FOR WORK ITEMS
 -   make individual pages for illustrations/websites
 -   THINIK ABOUT ILLUSTRATIONS AS COLLECTIONS (JSON incident)
 -   PUT THE FUCKING CIRCLES IN THE MAIN HERO YOU MORON
