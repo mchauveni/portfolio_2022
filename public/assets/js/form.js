@@ -16,6 +16,8 @@ const btn_wrapper = $(".button-wrapper");
 const btn_prev = $(".form-btn-prev");
 const btn_next = $(".form-btn-next");
 const form_result_div = $(".form-result");
+const current_question = $(".current-question");
+const out_of = $(".out-of");
 
 const shake_animation = [
     {
@@ -63,10 +65,16 @@ const fadein_animation = [
 // FORM WRAPPER STYLE to get question height
 let question_index = 0;
 
+window.addEventListener("DOMContentLoaded", () => {
+    out_of.innerHTML = question_array.length;
+});
+
 btn_next.addEventListener("click", (e) => {
     e.preventDefault();
     if (input_array[question_index].value.trim() === "") {
         error();
+    } else if (question_index == 3) {
+        return;
     } else {
         nextQuestion();
     }
@@ -95,18 +103,18 @@ function nextQuestion() {
         case 0:
             question_index++;
             btn_prev.classList.add("visible");
-            changeQuestionView();
             break;
         case 1:
             question_index++;
             btn_next.innerHTML = "Send";
-            changeQuestionView();
             break;
         case 2:
             submitForm();
             btn_next.classList.remove("visible");
+            return;
             break;
     }
+    changeQuestionView();
 }
 
 function previousQuestion() {
@@ -116,19 +124,16 @@ function previousQuestion() {
         case 1:
             question_index--;
             btn_prev.classList.remove("visible");
-            changeQuestionView();
             break;
         case 2:
             question_index--;
             btn_next.innerHTML = "Next";
             btn_next.classList.add("visible");
-            changeQuestionView();
             break;
         case 3:
             question_index = 0;
             btn_next.classList.add("visible");
             btn_prev.classList.remove("visible");
-            changeQuestionView();
             break;
     }
     changeQuestionView();
@@ -171,6 +176,9 @@ function changeQuestionView(complete = false) {
         question_wrapper.scrollTo(0, question_wrapper.scrollHeight);
         form_result_div.animate(fadein_animation, { duration: 1000 });
     } else {
+        // makes the ux pleaser change
+        current_question.innerHTML = question_index + 1;
+
         // Scroll & disable buttons (cant spam click)
         question_wrapper.scrollTo(0, question_array[0].offsetHeight * question_index);
         btn_next.disabled = true;

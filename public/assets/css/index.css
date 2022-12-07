@@ -246,6 +246,7 @@
 }
 
 .contact-form {
+    position: relative;
     margin: auto;
     width: clamp(10rem, 60%, 60vw);
 }
@@ -342,4 +343,16 @@
 .form-btn-prev.visible {
     opacity: 1;
     cursor: pointer;
+}
+
+.ux-pleaser {
+    z-index: 100;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: var(--txt-secondary);
+}
+
+.ux-pleaser * {
+    color: inherit;
 }

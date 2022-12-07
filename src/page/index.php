@@ -202,6 +202,7 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
             <h2 class="section_title">Contact me</h2>
             <div class="section_content">
                 <form class="contact-form" action="../assets/script.php">
+                    <span class="ux-pleaser"><span class="current-question">1</span>/<span class="out-of">?</span></span>
                     <div class="question-wrapper">
                         <div class="form-question">
                             <label>Who are you ?</label>
@@ -236,7 +237,6 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
 
     <script src="./assets/js/typewriter.js"></script>
     <script src="./assets/js/hello.js"></script>
-    <script src="./assets/js/vanilla-tilt.js"></script>
     <script src="./assets/js/lava_menu.js"></script>
     <script src="./assets/js/form.js"></script>
     <script src="./assets/js/nav.js"></script>
