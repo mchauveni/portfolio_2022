@@ -1,10 +1,14 @@
 [
     {
         "title": "Green IT",
-        "class": "greenit"
+        "class": "greenit",
+        "technos": ["html", "css"],
+        "description": ""
     },
     {
         "title": "Lucdia",
-        "class": "lucdia"
+        "class": "lucdia",
+        "technos": ["html", "css", "php"],
+        "description": ""
     }
 ]

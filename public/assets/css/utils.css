@@ -83,7 +83,8 @@ main {
 }
 
 section {
-    max-width: 55%;
+    width: 100%;
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -111,6 +112,11 @@ h6,
     margin: 0;
 }
 
+.almost-main-title.small {
+    font-size: clamp(1rem, 10vw, 1.5rem);
+
+}
+
 h2 {
     font-size: clamp(2rem, 10vw, 3rem);
 }
@@ -128,7 +134,7 @@ h2.section_title {
 
 h2.section_title::before {
     counter-increment: sectindex 1;
-    content: "0"counter(sectindex) " -";
+    content: "0" counter(sectindex) " -";
     position: absolute;
     width: fit-content;
     left: 0;

@@ -2,8 +2,6 @@
  * Import fonts and animations
  */
 @import url(./utils.css);
-@import url(./header.css);
-@import url(./footer.css);
 
 #hero {
     width: 100%;
@@ -33,6 +31,13 @@
     transition: 300ms;
 }
 
+.card button {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: var(--bg-secondary);
+    cursor: pointer;
+}
 
 .card:hover {
     transform: translateY(-5%) scale(1.03);

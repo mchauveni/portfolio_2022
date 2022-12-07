@@ -1,0 +1,29 @@
+/* 
+ * Import fonts and animations
+ */
+@import url(./utils.css);
+
+#hero {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 14rem calc((100vw - 1000px) / 2);
+    padding-bottom: 1.5rem;
+    background-color: var(--bg-secondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.technos {
+    margin-top: 0.75rem;
+    display: grid;
+    grid-auto-columns: 3rem;
+    grid-template-rows: 3rem;
+    grid-auto-flow: column dense;
+    gap: 0.5rem;
+}
+
+.content {
+    padding: 3rem;
+}

@@ -2,9 +2,6 @@
  * Import fonts and animations
  */
 @import url(./utils.css);
-@import url(./header.css);
-@import url(./footer.css);
-
 
 .section_content {
     margin-top: 5rem;

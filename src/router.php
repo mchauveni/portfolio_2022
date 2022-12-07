@@ -1,5 +1,6 @@
 <?php
 define('APP_ROOT_URL', str_replace('/index.php', '', $_SERVER['SCRIPT_NAME']));
+require 'scripts/utils.php';
 
 // traiter les différentes routes
 $url = parse_url($_SERVER['REQUEST_URI']);
@@ -9,7 +10,11 @@ $route = trim(str_replace(APP_ROOT_URL, '', $url['path']));
 $route = $route === '' ? '/' : $route;
 switch ($route) {
     default:
-        require 'page/index.php';
+        if (str_starts_with($route, '/website/') || str_starts_with($route, '/illustrations/')) {
+            require 'page/website_item.php';
+        } else {
+            require 'page/index.php';
+        };
         break;
     case '/index':
     case '/home':

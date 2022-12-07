@@ -1,3 +1,30 @@
+<style>
+    footer {
+        background-color: var(--bg-secondary);
+        padding: 3rem 0 5rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    footer h3 {
+        margin-bottom: 1.5rem;
+    }
+
+    footer ul {
+        list-style-type: none;
+    }
+
+    footer li {
+        margin: 0.5rem 0;
+    }
+
+    footer a {
+        text-decoration: none;
+    }
+</style>
+
 <footer>
     <div class="footer-links">
         <h3>Links</h3>
