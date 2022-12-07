@@ -36,8 +36,16 @@ $focus = findTheElement($focus_name, $websites);
         </section>
         <section class="content">
             <section class="about">
-                <h2>About</h2>
-                <p>Lucdia is a project, sure is.</p>
+                <h2>À propos</h2>
+                <?php
+                foreach ($focus->description as $desc_part) {
+                    echo "<p>$desc_part</p>";
+                }
+                ?>
+            </section>
+            <section class="gallery">
+                <h2>Gallerie</h2>
+
             </section>
         </section>
     </main>

@@ -3,12 +3,12 @@
         "title": "Green IT",
         "class": "greenit",
         "technos": ["html", "css"],
-        "description": ""
+        "description": ["Un projet pour l'IUT d'Angoulême. Mes camarades ont abandonné la formation, j'ai donc du me débrouiller seul.", "Le but du site était de sensibiliser sur le \"Green IT\", une pratique visant à réduire l'impact de l'internet sur l'environnement. Il y a de nombreux moyens de faire. Optimiser son code en est un."]
     },
     {
         "title": "Lucdia",
         "class": "lucdia",
         "technos": ["html", "css", "php"],
-        "description": ""
+        "description": []
     }
 ]

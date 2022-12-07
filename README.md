@@ -9,7 +9,7 @@ IMPORTANT :
 -   FR version
 -   RESPONSIVE AAAAH
 -   MAKE COLLECTIONS FOR WORK ITEMS
--   make individual pages for illustrations/websites
+-   make individual pages for illustrations
 -   THINIK ABOUT ILLUSTRATIONS AS COLLECTIONS (JSON incident)
 -   PUT THE FUCKING CIRCLES IN THE MAIN HERO YOU MORON
 
