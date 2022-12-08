@@ -45,7 +45,14 @@ $focus = findTheElement($focus_name, $websites);
             </section>
             <section class="gallery">
                 <h2>Gallerie</h2>
-
+                <div class="gallery-content">
+                    <?php
+                    $gallery = array_diff(scandir('./assets/img/websites_screenshot/' . $focus->class), array('.', '..'));
+                    foreach ($gallery as $img) {
+                        echo "<img src='/assets/img/websites_screenshot/$focus->class/$img'>";
+                    }
+                    ?>
+                </div>
             </section>
         </section>
     </main>
