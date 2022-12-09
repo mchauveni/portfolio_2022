@@ -9,6 +9,10 @@
         "title": "Lucdia",
         "class": "lucdia",
         "technos": ["html", "css", "php"],
-        "description": []
+        "description": [
+            "Un projet personnel dont les origines remontent à 2018. Il s'agit d'un univers complexe de ma création, dont la création a toujours été assez lente.",
+            "À l'origine, le site de Lucdia devait agir comme une espèce de Wiki, me permettant de facilement organiser ma pensée pour créer l'univers plus efficacement. Mais au final, il m'aura davantage servit à expérimenter avec des techniques du web.",
+            "Malgré le fait qu'il soit très incomplet, voire même vide, il s'agit d'un des rares projets dont je soit fier."
+        ]
     }
 ]
