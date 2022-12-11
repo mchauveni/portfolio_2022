@@ -6,15 +6,29 @@
         position: fixed;
         background-color: var(--bg-main-opacity);
         backdrop-filter: blur(3px);
+    }
+
+    .header-wrapper {
+        max-width: 1100px;
+        height: 100%;
+        margin: auto;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
 
-    header .logo_container {
+    header .logo-container {
         height: 5rem;
         width: 5rem;
+    }
+
+    #logo-link::after {
+        display: none;
+    }
+
+    #logo-link {
+        padding: 0;
     }
 
     header .logo_container img {
@@ -73,16 +87,20 @@
 </style>
 
 <header>
-    <div class="logo_container">
-        <img src="./TOREMOVEFROMPROD/some_sort_of_logo.png" alt="">
+    <div class="header-wrapper">
+        <div class="logo-container">
+            <a href="/" id="logo-link">
+                <img src="./assets/img/logo.svg" alt="">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about"><?php echo $texts->index_navbar[0]; ?></a></li>
+                <li><a href="#works"><?php echo $texts->index_navbar[1]; ?></a></li>
+                <li><a href="#skills"><?php echo $texts->index_navbar[2]; ?></a></li>
+                <li><a href="#hobbies"><?php echo $texts->index_navbar[3]; ?></a></li>
+                <li><a href="#contact"><?php echo $texts->index_navbar[4]; ?></a></li>
+            </ul>
+        </nav>
     </div>
-    <nav>
-        <ul>
-            <li><a href="#about"><?php echo $texts->index_navbar[0]; ?></a></li>
-            <li><a href="#works"><?php echo $texts->index_navbar[1]; ?></a></li>
-            <li><a href="#skills"><?php echo $texts->index_navbar[2]; ?></a></li>
-            <li><a href="#hobbies"><?php echo $texts->index_navbar[3]; ?></a></li>
-            <li><a href="#contact"><?php echo $texts->index_navbar[4]; ?></a></li>
-        </ul>
-    </nav>
 </header>

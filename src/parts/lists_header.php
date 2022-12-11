@@ -5,16 +5,30 @@
         z-index: 1000000;
         position: fixed;
         background-color: var(--bg-main-opacity);
+    }
+
+    .header-wrapper {
+        max-width: 1100px;
+        height: 100%;
+        margin: auto;
         backdrop-filter: blur(3px);
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
 
-    header .logo_container {
+    header .logo-container {
         height: 5rem;
         width: 5rem;
+    }
+
+    #logo-link::after {
+        display: none;
+    }
+
+    #logo-link {
+        padding: 0;
     }
 
     header .logo_container img {
@@ -73,14 +87,18 @@
 </style>
 
 <header>
-    <div class="logo_container">
-        <img src="./TOREMOVEFROMPROD/some_sort_of_logo.png" alt="">
+    <div class="header-wrapper">
+        <div class="logo-container">
+            <a href="/" id="logo-link">
+                <img src="./assets/img/logo.svg" alt="">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/websites">Sites Web</a></li>
+                <li><a href="/illustrations">Illustrations</a></li>
+            </ul>
+        </nav>
     </div>
-    <nav>
-        <ul>
-            <li><a href="/">Accueil</a></li>
-            <li><a href="/websites">Sites Web</a></li>
-            <li><a href="/illustrations">Illustrations</a></li>
-        </ul>
-    </nav>
 </header>
