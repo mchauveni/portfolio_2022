@@ -29,17 +29,16 @@
     <div class="footer-links">
         <h3>Links</h3>
         <ul>
-            <li><a href="">Website list</a></li>
-            <li><a href="">Illustration list</a></li>
+            <li><a href="/websites">Website list</a></li>
+            <li><a href="/illustrations">Illustration list</a></li>
         </ul>
     </div>
     <div class="footer-socials">
         <h3>Socials</h3>
         <ul>
-            <li><a href="">Github</a></li>
-            <li><a href="">LinkedIn</a></li>
-            <li><a href="">Twitter</a></li>
-            <li><a href="">Discord</a></li>
+            <li><a href="https://github.com/Kaosbeing">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/math%C3%A9o-chaumet-venier-1ab02b257/">LinkedIn</a></li>
+            <li><a href="https://twitter.com/ChaosLeChaos">Twitter</a></li>
         </ul>
     </div>
     <div class="footer-legal">
