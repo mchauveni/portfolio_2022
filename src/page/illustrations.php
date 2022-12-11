@@ -24,14 +24,8 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
         </section>
         <section class="list">
             <?php
-            foreach ($illustrations as $illustration) {
-            ?>
-                <a href="" class="card HOVER">
-                    <div class="card-header bg <?php echo $illustration->class ?>">
-                    </div>
-                    <p class="card-title"><?php echo $illustration->title ?></p>
-                </a>
-            <?php
+            foreach ($illustrations as $element) {
+                require '../src/parts/list_item.php';
             }
 
             ?>

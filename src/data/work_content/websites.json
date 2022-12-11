@@ -2,6 +2,7 @@
     {
         "title": "Green IT",
         "class": "greenit",
+        "type": "website",
         "technos": [
             "html",
             "css"
@@ -14,6 +15,7 @@
     {
         "title": "Lucdia",
         "class": "lucdia",
+        "type": "website",
         "technos": [
             "html",
             "css",

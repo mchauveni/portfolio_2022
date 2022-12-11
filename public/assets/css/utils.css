@@ -178,3 +178,7 @@ p {
 .bg.lucdia {
     background: center / cover no-repeat url(../img/works/lucdia/.cover.png);
 }
+
+.bg.inktober {
+    background: center / cover no-repeat url(../img/works/inktober/.cover.png);
+}

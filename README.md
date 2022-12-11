@@ -9,7 +9,6 @@ IMPORTANT :
 -   Clean EN
 -   FR version
 -   RESPONSIVE AAAAH
--   make individual pages for illustrations
 
 NOT SO IMPORTANT :
 

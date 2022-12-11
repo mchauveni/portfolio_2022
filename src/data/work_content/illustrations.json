@@ -1,1 +1,25 @@
-[]
+[
+    {
+        "title": "Inktober",
+        "class": "inktober",
+        "type": "illustration",
+        "technos": [
+            "illustrator"
+        ],
+        "description": [
+            "Projet personnel, j'ai souhaité faire l'Inktober avec des amis. Étant donné que je ne suis pas un artiste à l'origine, je l'ai fait sous Illustrator en utilisant des tonnes de références.",
+            "Le projet était très amusant, et m'a permit de beaucoup m'améliorer notamment dans l'utilisation des couleurs, et la compréhension des formes. Je l'ai presque fait dans les temps, il n'était pas rare que certains dessins prennent deux ou trois jours de retard, mais au delà de ça... Bon, le dernier dessin est arrivé avec 15 jours de retard mais il ne faut pas y prêter attention."
+        ]
+    },
+    {
+        "title": "Portfolio",
+        "class": "portfolio",
+        "type": "illustration",
+        "technos": [
+            "illustrator"
+        ],
+        "description": [
+            "À l'origine imposé par l'IUT, j'ai prit ce projet très personnellement (comme beaucoup de mes camarades) et ai voulu en faire une oeuvre qui me ressemble. Alors j'ai fait plusieurs infographies pour illustrer le portfolio et me représenter (que les gens puissent voir à quoi je ressemble, mais sans que je montre mon visage)."
+        ]
+    }
+]

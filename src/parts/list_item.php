@@ -7,7 +7,7 @@
     </button>
 </form> -->
 
-<a href="/website/<?php echo $element->class ?>" class="card">
+<a href="/<?php echo $element->type ?>/<?php echo $element->class ?>" class="card">
     <div class="card-header bg <?php echo $element->class ?>">
     </div>
     <p class="card-title"><?php echo $element->title ?></p>

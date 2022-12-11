@@ -10,8 +10,10 @@ $route = trim(str_replace(APP_ROOT_URL, '', $url['path']));
 $route = $route === '' ? '/' : $route;
 switch ($route) {
     default:
-        if (str_starts_with($route, '/website/') || str_starts_with($route, '/illustrations/')) {
+        if (str_starts_with($route, '/website/')) {
             require 'page/website_item.php';
+        } else if (str_starts_with($route, '/illustration/')) {
+            require 'page/illustration_item.php';
         } else {
             require 'page/index.php';
         };
