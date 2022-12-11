@@ -2,13 +2,23 @@
     {
         "title": "Green IT",
         "class": "greenit",
-        "technos": ["html", "css"],
-        "description": ["Un projet pour l'IUT d'Angoulême. Mes camarades ont abandonné la formation, j'ai donc du me débrouiller seul.", "Le but du site était de sensibiliser sur le \"Green IT\", une pratique visant à réduire l'impact de l'internet sur l'environnement. Il y a de nombreux moyens de faire. Optimiser son code en est un."]
+        "technos": [
+            "html",
+            "css"
+        ],
+        "description": [
+            "Un projet pour l'IUT d'Angoulême. Mes camarades ont abandonné la formation, j'ai donc du me débrouiller seul.",
+            "Le but du site était de sensibiliser sur le \"Green IT\", une pratique visant à réduire l'impact de l'internet sur l'environnement. Il y a de nombreux moyens de faire. Optimiser son code en est un."
+        ]
     },
     {
         "title": "Lucdia",
         "class": "lucdia",
-        "technos": ["html", "css", "php"],
+        "technos": [
+            "html",
+            "css",
+            "php"
+        ],
         "description": [
             "Un projet personnel dont les origines remontent à 2018. Il s'agit d'un univers complexe de ma création, dont la création a toujours été assez lente.",
             "À l'origine, le site de Lucdia devait agir comme une espèce de Wiki, me permettant de facilement organiser ma pensée pour créer l'univers plus efficacement. Mais au final, il m'aura davantage servit à expérimenter avec des techniques du web.",

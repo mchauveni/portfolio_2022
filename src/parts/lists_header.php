@@ -90,7 +90,7 @@
     <div class="header-wrapper">
         <div class="logo-container">
             <a href="/" id="logo-link">
-                <img src="./assets/img/logo.svg" alt="">
+                <img src="/assets/img/logo.svg" alt="">
             </a>
         </div>
         <nav>

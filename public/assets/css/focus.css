@@ -3,16 +3,62 @@
  */
 @import url(./utils.css);
 
+section {
+    margin: 0 auto;
+}
+
 #hero {
     width: 100%;
     max-width: none;
     margin: 0;
-    padding: 14rem calc((100vw - 1000px) / 2);
+    padding: 6rem calc((100vw - 1000px) / 2);
     padding-bottom: 1.5rem;
     background-color: var(--bg-secondary);
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+}
+
+.return-wrapper {
+    padding: 1rem 0;
+    margin: 3rem 0;
+}
+
+.btn {
+    /* background-color: var(--txt-secondary); */
+    position: relative;
+    border-radius: 10px;
+    padding: 0;
+    color: var(--txt-secondary);
+    font-size: 1.3rem;
+}
+
+.btn:after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    display: block;
+    position: absolute;
+    transform-origin: center;
+    transform: scale(0, 1);
+    background: var(--txt-secondary);
+    transition: 300ms;
+}
+
+.btn:hover:after {
+    transform: scale(1);
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: space-between;
     align-items: flex-end;
+}
+
+h2 {
+    margin: 2rem 0;
 }
 
 .technos {

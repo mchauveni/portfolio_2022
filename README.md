@@ -10,10 +10,11 @@ IMPORTANT :
 -   FR version
 -   RESPONSIVE AAAAH
 -   make individual pages for illustrations
--   PUT THE FUCKING CIRCLES IN THE MAIN HERO YOU MORON
 
 NOT SO IMPORTANT :
 
+-   Loader
+-   balls animation
 -   Change/add hobbies icons
 -   add a cue to let know people where they are in the contact form (1/3 or 2/3 or 3/3)
 -   (maybe) Try another avatar for Hello (match color scheme)
