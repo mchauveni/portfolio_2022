@@ -8,14 +8,21 @@ IMPORTANT :
 
 -   Clean EN
 -   FR version
--   RESPONSIVE AAAAH
 -   Loader
+-   RESPONSIVE AAAAH
+-   menu burger (aled)
+-   REFERENCEMENT
+    -   Search console
+    -   Sitemap
 
 NOT SO IMPORTANT :
 
 -   balls animation
 -   Change/add hobbies icons
--   add a cue to let know people where they are in the contact form (1/3 or 2/3 or 3/3)
--   (maybe) Try another avatar for Hello (match color scheme)
+-   (maybe) Try another avatar for Hello (match color scheme) or at least change color for the better
 -   make a pending animation for the form
 -   maybe make work pages dynamic
+-   zoom on the galleries
+-   recheck the text content
+-   focus work : make a popup on the techno icon
+-   DO SOMETHING FOR THE HOBBIES LMAO

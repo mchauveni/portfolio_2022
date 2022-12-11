@@ -5,6 +5,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        flex-wrap: wrap;
         gap: 4rem;
     }
 
@@ -22,6 +23,12 @@
 
     footer a {
         text-decoration: none;
+    }
+
+    @media screen and (max-width: 576px) {
+        footer * {
+            text-align: center;
+        }
     }
 </style>
 

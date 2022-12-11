@@ -44,11 +44,8 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
             <div class="section_content">
                 <div class="work-sect">
                     <div class="ws-header">
-                        <div class="ws-content">
-                            <h3><?php echo $texts->index_work_sect[0]->title; ?></h3>
-                            <p><?php echo $texts->index_work_sect[0]->text; ?></p>
-                        </div>
-                        <div class="ws-icon"></div>
+                        <h3><?php echo $texts->index_work_sect[0]->title; ?></h3>
+                        <p><?php echo $texts->index_work_sect[0]->text; ?></p>
                     </div>
                     <div class="preview">
                         <a href="/website/<?php echo $websites[count($websites) - 1]->class ?>" class="bg <?php echo $websites[count($websites) - 1]->class ?>"></a>
@@ -61,11 +58,8 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
 
                 <div class="work-sect">
                     <div class="ws-header">
-                        <div class="ws-content">
-                            <h3><?php echo $texts->index_work_sect[1]->title; ?></h3>
-                            <p><?php echo $texts->index_work_sect[1]->text; ?></p>
-                        </div>
-                        <div class="ws-icon"></div>
+                        <h3><?php echo $texts->index_work_sect[1]->title; ?></h3>
+                        <p><?php echo $texts->index_work_sect[1]->text; ?></p>
                     </div>
                     <div class="preview">
                         <a href="/illustration/<?php echo $illustrations[count($illustrations) - 1]->class ?>" class="bg <?php echo $illustrations[count($illustrations) - 1]->class ?>"></a>

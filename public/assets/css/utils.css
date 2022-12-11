@@ -78,7 +78,6 @@ html {
 }
 
 main {
-    min-width: 100vh;
     margin: 0 auto;
 }
 
@@ -86,6 +85,13 @@ section {
     width: 100%;
     max-width: 1100px;
     margin: 5rem auto;
+}
+
+@media screen and (max-width: 576px) {
+    section {
+        padding: 2rem;
+        margin: 0;
+    }
 }
 
 body {
@@ -104,7 +110,7 @@ h6,
 }
 
 .main-title {
-    font-size: clamp(2rem, 10vw, 6rem);
+    font-size: clamp(3rem, 10vw, 6rem);
 }
 
 .almost-main-title {
@@ -125,29 +131,32 @@ h3 {
     font-size: clamp(1.5rem, 10vw, 2rem);
 }
 
-h2.section_title {
-    position: relative;
-    display: flex;
-    align-items: center;
-    background-color: var(--bg-main);
-}
 
-h2.section_title::before {
-    counter-increment: sectindex 1;
-    content: "0" counter(sectindex) " -";
-    position: absolute;
-    width: fit-content;
-    left: 0;
-    transform: translateX(-110%);
-}
+@media screen and (min-width: 992px) {
+    h2.section_title {
+        position: relative;
+        display: flex;
+        align-items: center;
+        background-color: var(--bg-main);
+    }
 
-h2.section_title::after {
-    content: "";
-    margin-left: 1.5rem;
-    flex: 1;
-    height: 2px;
-    width: 100%;
-    background-color: var(--bg-secondary);
+    h2.section_title::before {
+        counter-increment: sectindex 1;
+        content: "0" counter(sectindex) " -";
+        position: absolute;
+        width: fit-content;
+        left: 0;
+        transform: translateX(-110%);
+    }
+
+    h2.section_title::after {
+        content: "";
+        margin-left: 1.5rem;
+        flex: 1;
+        height: 2px;
+        width: 100%;
+        background-color: var(--bg-secondary);
+    }
 }
 
 em,
@@ -171,8 +180,8 @@ a {
     margin: 3rem 0;
 }
 
+/* Return link in work lists & pages */
 .btn {
-    /* background-color: var(--txt-secondary); */
     position: relative;
     border-radius: 10px;
     padding: 0;
