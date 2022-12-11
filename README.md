@@ -9,10 +9,10 @@ IMPORTANT :
 -   Clean EN
 -   FR version
 -   RESPONSIVE AAAAH
+-   Loader
 
 NOT SO IMPORTANT :
 
--   Loader
 -   balls animation
 -   Change/add hobbies icons
 -   add a cue to let know people where they are in the contact form (1/3 or 2/3 or 3/3)

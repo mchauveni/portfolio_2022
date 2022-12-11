@@ -7,9 +7,15 @@
     width: 100%;
     max-width: none;
     margin: 0;
-    padding: 14rem calc((100vw - 1000px) / 2);
+    padding: 7rem calc((100vw - 1000px) / 2);
     padding-bottom: 1.5rem;
     background-color: var(--bg-secondary);
+}
+
+
+.return-wrapper {
+    padding: 1rem 0;
+    margin: 1.5rem 0;
 }
 
 .list {

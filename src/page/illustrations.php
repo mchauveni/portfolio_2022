@@ -19,8 +19,13 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
     <?php require '../src/parts/lists_header.php' ?>
     <main>
         <section id="hero">
-            <p class="almost-main-title">Check my</p>
-            <h1 class="main-title">Illustrations</h1>
+            <div class="return-wrapper">
+                <a href="/" class="btn">← Retour</a>
+            </div>
+            <div class="hero-wrapper">
+                <p class="almost-main-title">Check my</p>
+                <h1 class="main-title">Illustrations</h1>
+            </div>
         </section>
         <section class="list">
             <?php
