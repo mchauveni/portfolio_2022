@@ -50,7 +50,7 @@ $focus = findTheElement($focus_name, $websites);
                 ?>
             </section>
             <section class="gallery">
-                <h2>Gallerie</h2>
+                <h2>Galerie</h2>
                 <div class="gallery-content">
                     <?php
                     $gallery = array_diff(scandir('./assets/img/works/' . $focus->class), array('.', '..'));
