@@ -8,7 +8,7 @@
     }
 
     .header-wrapper {
-        max-width: 1100px;
+        max-width: 1300px;
         height: 100%;
         margin: auto;
         backdrop-filter: blur(3px);

@@ -5,15 +5,15 @@ Just because i don't trust my USB key lol
 TODO :
 
 IMPORTANT :
+
 -   Clean EN
 -   FR version
 -   RESPONSIVE AAAAH
--   MAKE COLLECTIONS FOR WORK ITEMS
 -   make individual pages for illustrations
--   THINIK ABOUT ILLUSTRATIONS AS COLLECTIONS (JSON incident)
 -   PUT THE FUCKING CIRCLES IN THE MAIN HERO YOU MORON
 
 NOT SO IMPORTANT :
+
 -   Change/add hobbies icons
 -   add a cue to let know people where they are in the contact form (1/3 or 2/3 or 3/3)
 -   (maybe) Try another avatar for Hello (match color scheme)
