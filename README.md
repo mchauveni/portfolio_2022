@@ -22,6 +22,7 @@ NOT SO IMPORTANT :
 -   index : make a scroll cue
 -   focus work : zoom on the galleries
 -   focus work : make a popup on the techno icon
+-   index skill view : horizontal scrollcue on mobile
 -   Change/add hobbies icons
 -   DO SOMETHING FOR THE HOBBIES LMAO
 -   contact form : make email adress test within the JS too 😔

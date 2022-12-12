@@ -103,7 +103,7 @@
 <header>
     <div class="header-wrapper">
         <div class="logo-container">
-            <a href="/" id="logo-link">
+            <a href="/" id="logo-link" aria-label="home">
                 <img src="./assets/img/logo.svg" alt="">
             </a>
         </div>

@@ -31,7 +31,6 @@
 
 <?php
 $texts = json_decode(file_get_contents('../src/data/lang/fr.json'));
-
 ?>
 
 <body>
