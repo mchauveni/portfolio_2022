@@ -6,6 +6,7 @@ TODO :
 
 IMPORTANT :
 
+-   Langs toggle integration (how to change languages ?)
 -   Loader
 -   menu burger (aled)
 -   REFERENCEMENT
