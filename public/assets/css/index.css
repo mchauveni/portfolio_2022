@@ -260,9 +260,13 @@ a.preview-explore {
     text-align: center;
 }
 
+.svc-img-wrapper {
+    max-height: 350px;
+}
+
 /* svc = skill view content */
 .svc-img {
-    margin: 3.5rem;
+    padding: 3.5rem;
 }
 
 .svc-title {

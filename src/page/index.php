@@ -7,7 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/assets/img/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/index.css">
-    <title>Porte folio ^^</title>
+    <link rel="preload" href="/assets/fonts/K2D.ttf" as="font" type="font/ttf">
+    <link rel="preload" href="/assets/fonts/Righteous.ttf" as="font" type="font/ttf">
+    <title>Mathéo - Portfolio</title>
+    <!-- Matomo -->
+    <script>
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u = "https://mchauveni.matomo.cloud/";
+            _paq.push(['setTrackerUrl', u + 'matomo.php']);
+            _paq.push(['setSiteId', '1']);
+            var d = document,
+                g = d.createElement('script'),
+                s = d.getElementsByTagName('script')[0];
+            g.async = true;
+            g.src = '//cdn.matomo.cloud/mchauveni.matomo.cloud/matomo.js';
+            s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <!-- End Matomo Code -->
+
 </head>
 
 <?php
@@ -89,22 +111,30 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
                         <h3><?php echo $texts->index_skills_view[0]->title; ?></h3>
                         <div class="sv-content-wrapper">
                             <div class="svc-element">
-                                <img src="./assets/img/skill_icons/html_css_icon.svg" alt="icon that reminds the HTML and CSS icon" class="svc-img">
+                                <div class="svc-img-wrapper">
+                                    <img src="./assets/img/skill_icons/html_css_icon.svg" alt="icon that reminds the HTML and CSS icon" class="svc-img">
+                                </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[0]->index_skills_view_element[0]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[0]->index_skills_view_element[0]->content; ?></p>
                             </div>
                             <div class="svc-element">
-                                <img src="./assets/img/skill_icons/javascript_icon.svg" alt="the javascript icon" class="svc-img">
+                                <div class="svc-img-wrapper">
+                                    <img src="./assets/img/skill_icons/javascript_icon.svg" alt="the javascript icon" class="svc-img">
+                                </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[0]->index_skills_view_element[1]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[0]->index_skills_view_element[1]->content; ?></p>
                             </div>
                             <div class="svc-element">
-                                <img src="./assets/img/skill_icons/php_sql_icon.svg" alt="" class="svc-img">
+                                <div class="svc-img-wrapper">
+                                    <img src="./assets/img/skill_icons/php_sql_icon.svg" alt="" class="svc-img">
+                                </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[0]->index_skills_view_element[2]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[0]->index_skills_view_element[2]->content; ?></p>
                             </div>
                             <div class="svc-element">
-                                <img src="./assets/img/skill_icons/java_icon.svg" alt="" class="svc-img">
+                                <div class="svc-img-wrapper">
+                                    <img src="./assets/img/skill_icons/java_icon.svg" alt="" class="svc-img">
+                                </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[0]->index_skills_view_element[3]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[0]->index_skills_view_element[3]->content; ?></p>
                             </div>
@@ -114,7 +144,9 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
                         <h3>Technologies</h3>
                         <div class="sv-content-wrapper">
                             <div class="svc-element">
-                                <img src="./assets/img/skill_icons/nodejs_icon.svg" alt="" class="svc-img">
+                                <div class="svc-img-wrapper">
+                                    <img src="./assets/img/skill_icons/nodejs_icon.svg" alt="" class="svc-img">
+                                </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[1]->index_skills_view_element[0]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[1]->index_skills_view_element[0]->content; ?></p>
                             </div>
@@ -124,22 +156,30 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
                         <h3>Adobe</h3>
                         <div class="sv-content-wrapper">
                             <div class="svc-element">
-                                <img src="./assets/img/skill_icons/illustrator_icon.svg" alt="" class="svc-img">
+                                <div class="svc-img-wrapper">
+                                    <img src="./assets/img/skill_icons/illustrator_icon.svg" alt="" class="svc-img">
+                                </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[2]->index_skills_view_element[0]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[2]->index_skills_view_element[0]->content; ?></p>
                             </div>
                             <div class="svc-element">
-                                <img src="./assets/img/skill_icons/photoshop_icon.svg" alt="" class="svc-img">
+                                <div class="svc-img-wrapper">
+                                    <img src="./assets/img/skill_icons/photoshop_icon.svg" alt="" class="svc-img">
+                                </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[2]->index_skills_view_element[1]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[2]->index_skills_view_element[1]->content; ?></p>
                             </div>
                             <div class="svc-element">
-                                <img src="./assets/img/skill_icons/premiere_icon.svg" alt="" class="svc-img">
+                                <div class="svc-img-wrapper">
+                                    <img src="./assets/img/skill_icons/premiere_icon.svg" alt="" class="svc-img">
+                                </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[2]->index_skills_view_element[2]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[2]->index_skills_view_element[2]->content; ?></p>
                             </div>
                             <div class="svc-element">
-                                <img src="./assets/img/skill_icons/aftereffects_icon.svg" alt="" class="svc-img">
+                                <div class="svc-img-wrapper">
+                                    <img src="./assets/img/skill_icons/aftereffects_icon.svg" alt="" class="svc-img">
+                                </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[2]->index_skills_view_element[3]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[2]->index_skills_view_element[3]->content; ?></p>
                             </div>
@@ -149,12 +189,16 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
                         <h3>Microsoft</h3>
                         <div class="sv-content-wrapper">
                             <div class="svc-element">
-                                <img src="./assets/img/skill_icons/excel_icon.svg" alt="" class="svc-img">
+                                <div class="svc-img-wrapper">
+                                    <img src="./assets/img/skill_icons/excel_icon.svg" alt="" class="svc-img">
+                                </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[3]->index_skills_view_element[0]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[3]->index_skills_view_element[0]->content; ?></p>
                             </div>
                             <div class="svc-element">
-                                <img src="./assets/img/skill_icons/words_icon.svg" alt="" class="svc-img">
+                                <div class="svc-img-wrapper">
+                                    <img src="./assets/img/skill_icons/words_icon.svg" alt="" class="svc-img">
+                                </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[3]->index_skills_view_element[1]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[3]->index_skills_view_element[1]->content; ?></p>
                             </div>
