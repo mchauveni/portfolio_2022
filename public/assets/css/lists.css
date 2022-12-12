@@ -12,21 +12,16 @@
     background-color: var(--bg-secondary);
 }
 
-
-.return-wrapper {
-    padding: 1rem 0;
-    margin: 1.5rem 0;
-}
-
 .list {
-    padding: 3rem;
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-flow: row dense;
 }
 
 .card {
-    width: 17rem;
+    width: 100%;
+    margin: auto;
     overflow: hidden;
     border-radius: 15px;
     background-color: var(--bg-secondary);
@@ -56,4 +51,16 @@
 
 .card-title {
     height: 1.5rem;
+}
+
+@media screen and (min-width: 992px) {}
+
+@media screen and (max-width: 576px) {
+    #hero {
+        padding: 7rem 2rem 2rem 2rem;
+    }
+
+    .list {
+        grid-template-columns: 1fr;
+    }
 }

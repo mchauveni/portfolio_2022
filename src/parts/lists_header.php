@@ -62,27 +62,36 @@
         align-items: center;
     }
 
-    header a {
-        padding: 2rem 0.5rem;
-        position: relative;
+    @media screen and (min-width: 992px) {
+
+        header a:after {
+            content: "";
+            width: 100%;
+            height: 2px;
+            bottom: 35%;
+            left: 0;
+            display: block;
+            position: absolute;
+            transform-origin: center;
+            transform: scale(0, 1);
+            background: var(--txt-secondary);
+            transition: 300ms;
+        }
+
+        header a:hover:after {
+            transform: scale(1);
+        }
     }
 
-    header a:after {
-        content: "";
-        width: 100%;
-        height: 2px;
-        bottom: 35%;
-        left: 0;
-        display: block;
-        position: absolute;
-        transform-origin: center;
-        transform: scale(0, 1);
-        background: var(--txt-secondary);
-        transition: 300ms;
-    }
+    @media screen and (max-width: 576px) {
+        header .logo-container {
+            margin: 1rem;
+            padding: 1rem;
+        }
 
-    header a:hover:after {
-        transform: scale(1);
+        header nav ul {
+            display: none;
+        }
     }
 </style>
 
