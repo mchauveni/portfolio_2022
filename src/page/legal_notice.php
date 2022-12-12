@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php
+$texts = json_decode(file_get_contents('../src/data/lang/fr.json'));
+?>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="<?php echo $texts->meta_desc; ?>">
     <link rel="shortcut icon" href="/assets/img/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/lists.css">
     <title>Mentions légales</title>
@@ -28,10 +33,6 @@
     </script>
     <!-- End Matomo Code -->
 </head>
-
-<?php
-$texts = json_decode(file_get_contents('../src/data/lang/fr.json'));
-?>
 
 <body>
     <?php require '../src/parts/lists_header.php' ?>
