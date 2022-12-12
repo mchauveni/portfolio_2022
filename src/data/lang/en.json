@@ -1,9 +1,22 @@
 {
-    "index_navbar": ["<span class='color'>01.</span> About", "<span class='color'>02.</span> Works", "<span class='color'>03.</span> Skills", "<span class='color'>04.</span> Hobbies", "<span class='color'>05.</span> Contact"],
-    "index_main_title": ["Hey,", "<em>Mathéo</em> here."],
+    "index_navbar": [
+        "<span class='color'>01.</span> About",
+        "<span class='color'>02.</span> Works",
+        "<span class='color'>03.</span> Skills",
+        "<span class='color'>04.</span> Hobbies",
+        "<span class='color'>05.</span> Contact"
+    ],
+    "index_main_title": [
+        "Hey,",
+        "<em>Mathéo</em> here."
+    ],
     "index_main_subtitle": "Future web developper situated in Angoulême.",
     "index_about_title": "About me",
-    "index_about_text": ["I am currently studying in internet and multimedia technologies in Angoulême.", "I started being interessed in coding with Discord bots, trying out Discord.js module. I quickly became passionate about it and made it my future.", "At school I learned a lot of things, including better coding practices and a lot of new languages."],
+    "index_about_text": [
+        "I am currently studying in internet and multimedia technologies in Angoulême.",
+        "I started being interessed in coding with Discord bots, trying out Discord.js module. I quickly became passionate about it and made it my future.",
+        "At school I learned a lot of things, including better coding practices and a lot of new languages."
+    ],
     "index_work_title": "My works",
     "index_work_sect": [
         {
@@ -32,7 +45,12 @@
         }
     ],
     "index_skills_title": "Skills",
-    "index_skills_view_nav": ["Languages", "Technologies", "Adobe", "Microsoft"],
+    "index_skills_view_nav": [
+        "Languages",
+        "Technologies",
+        "Adobe",
+        "Microsoft"
+    ],
     "index_skills_view": [
         {
             "title": "Languages",
@@ -112,6 +130,30 @@
         {
             "text": "What do you want to tell me ?",
             "placeholder": "Hey ! I like the background color !"
+        }
+    ],
+    "index_footer_links": [
+        {
+            "title": "Links",
+            "content": [
+                "Website List",
+                "Illustration List"
+            ]
+        },
+        {
+            "title": "Socials",
+            "content": [
+                "Github",
+                "LinkedIn",
+                "Twitter"
+            ]
+        },
+        {
+            "title": "Legals",
+            "content": [
+                "Term of Use",
+                "Legal Notice"
+            ]
         }
     ]
 }

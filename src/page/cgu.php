@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/assets/img/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/lists.css">
-    <title>Illustrations</title>
+    <title>Conditions Générale d'Utilisation</title>
     <!-- Matomo -->
     <script>
         var _paq = window._paq = window._paq || [];
@@ -27,12 +27,11 @@
         })();
     </script>
     <!-- End Matomo Code -->
-
 </head>
 
 <?php
 $texts = json_decode(file_get_contents('../src/data/lang/fr.json'));
-$illustrations = json_decode(file_get_contents('../src/data/work_content/illustrations.json'));
+
 ?>
 
 <body>
@@ -43,18 +42,12 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
                 <a href="/" class="btn">← Retour</a>
             </div>
             <div class="hero-wrapper">
-                <p class="almost-main-title">Check my</p>
-                <h1 class="main-title">Illustrations</h1>
+                <h1 class="main-title">CGUs</h1>
             </div>
         </section>
-        <section class="list">
-            <?php
-            foreach ($illustrations as $element) {
-                require '../src/parts/list_item.php';
-            }
-
-            ?>
-
+        <section class="content">
+            <h2>Vous ici ?</h2>
+            <p>Il n'y a rien ici pour le moment...</p>
         </section>
     </main>
 

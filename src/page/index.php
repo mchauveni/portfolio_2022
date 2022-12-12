@@ -33,7 +33,7 @@
 </head>
 
 <?php
-$texts = json_decode(file_get_contents('../src/data/lang/en.json'));
+$texts = json_decode(file_get_contents('../src/data/lang/fr.json'));
 $websites = json_decode(file_get_contents('../src/data/work_content/websites.json'));
 $illustrations = json_decode(file_get_contents('../src/data/work_content/illustrations.json'));
 ?>

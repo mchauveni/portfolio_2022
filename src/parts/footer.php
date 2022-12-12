@@ -34,25 +34,25 @@
 
 <footer>
     <div class="footer-links">
-        <h3>Links</h3>
+        <h3><?php echo $texts->index_footer_links[0]->title; ?></h3>
         <ul>
-            <li><a href="/websites">Website list</a></li>
-            <li><a href="/illustrations">Illustration list</a></li>
+            <li><a href="/websites"><?php echo $texts->index_footer_links[0]->content[0]; ?></a></li>
+            <li><a href="/illustrations"><?php echo $texts->index_footer_links[0]->content[1]; ?></a></li>
         </ul>
     </div>
     <div class="footer-socials">
-        <h3>Socials</h3>
+        <h3><?php echo $texts->index_footer_links[1]->title; ?></h3>
         <ul>
-            <li><a href="https://github.com/Kaosbeing">Github</a></li>
-            <li><a href="https://www.linkedin.com/in/math%C3%A9o-chaumet-venier-1ab02b257/">LinkedIn</a></li>
-            <li><a href="https://twitter.com/ChaosLeChaos">Twitter</a></li>
+            <li><a href="https://github.com/Kaosbeing"><?php echo $texts->index_footer_links[1]->content[0]; ?></a></li>
+            <li><a href="https://www.linkedin.com/in/math%C3%A9o-chaumet-venier-1ab02b257/"><?php echo $texts->index_footer_links[1]->content[1]; ?></a></li>
+            <li><a href="https://twitter.com/ChaosLeChaos"><?php echo $texts->index_footer_links[1]->content[2]; ?></a></li>
         </ul>
     </div>
     <div class="footer-legal">
-        <h3>Legal Shit</h3>
+        <h3><?php echo $texts->index_footer_links[2]->title; ?></h3>
         <ul>
-            <li><a href="">Term of Use</a></li>
-            <li><a href="">Legal mentions</a></li>
+            <li><a href="/tos"><?php echo $texts->index_footer_links[2]->content[0]; ?></a></li>
+            <li><a href=""><?php echo $texts->index_footer_links[2]->content[1]; ?></a></li>
         </ul>
     </div>
 </footer>

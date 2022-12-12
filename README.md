@@ -12,16 +12,16 @@ IMPORTANT :
 -   REFERENCEMENT
     -   Search console
     -   Sitemap
--   FORM EN/FR
+-   FOOTER EN FR
 
 NOT SO IMPORTANT :
 
--   balls animation
--   Change/add hobbies icons
+-   index : balls animation
 -   (maybe) Try another avatar for Hello (match color scheme) or at least change color for the better
--   make a pending animation for the form
--   maybe make work pages dynamic
+-   index form : make a pending animation for the form
+-   index : make a scroll cue
 -   focus work : zoom on the galleries
 -   focus work : make a popup on the techno icon
+-   Change/add hobbies icons
 -   DO SOMETHING FOR THE HOBBIES LMAO
 -   contact form : make email adress test within the JS too 😔

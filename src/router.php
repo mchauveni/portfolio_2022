@@ -31,4 +31,9 @@ switch ($route) {
     case '/illustration':
         require 'page/illustrations.php';
         break;
+    case '/cgu':
+    case '/tos':
+    case '/termofuse':
+        require 'page/cgu.php';
+        break;
 }

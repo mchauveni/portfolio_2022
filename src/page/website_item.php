@@ -37,6 +37,10 @@ $focus = findTheElement($focus_name, $websites);
 
 </head>
 
+<?php
+$texts = json_decode(file_get_contents('../src/data/lang/fr.json'));
+?>
+
 <body>
     <?php require '../src/parts/lists_header.php' ?>
     <main>
