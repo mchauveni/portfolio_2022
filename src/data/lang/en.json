@@ -1,31 +1,18 @@
 {
-    "index_navbar": [
-        "<span class='color'>01.</span> About",
-        "<span class='color'>02.</span> Works",
-        "<span class='color'>03.</span> Skills",
-        "<span class='color'>04.</span> Hobbies",
-        "<span class='color'>05.</span> Contact"
-    ],
-    "index_main_title": [
-        "Hey,",
-        "<em>Mathéo</em> here."
-    ],
-    "index_main_subtitle": "Trying my best in life to get things done, please take a look around to get to know me.",
+    "index_navbar": ["<span class='color'>01.</span> About", "<span class='color'>02.</span> Works", "<span class='color'>03.</span> Skills", "<span class='color'>04.</span> Hobbies", "<span class='color'>05.</span> Contact"],
+    "index_main_title": ["Hey,", "<em>Mathéo</em> here."],
+    "index_main_subtitle": "Future web developper situated in Angoulême.",
     "index_about_title": "About me",
-    "index_about_text": [
-        "I am currently studying in internet and multimedia technologies in France. Trying some shit out, i’ll probably do something great one day.",
-        "I started being interessed in coding with Discord bots, trying out Discord.js module. Then I chose every coding path at school, because I had it in mind.",
-        "Today I’m trying to get my life together and struggle to get things done."
-    ],
+    "index_about_text": ["I am currently studying in internet and multimedia technologies in Angoulême.", "I started being interessed in coding with Discord bots, trying out Discord.js module. I quickly became passionate about it and made it my future.", "At school I learned a lot of things, including better coding practices and a lot of new languages."],
     "index_work_title": "My works",
     "index_work_sect": [
         {
             "title": "Websites",
-            "text": "Get to see the collection of my websites. They’re all trash but at least i’ve done some things i guess ? idk what it’s worth in the end"
+            "text": "Here are some websites I have done during school or at home."
         },
         {
             "title": "Illustrations",
-            "text": "I’ve done some shit with illustrator and/or photoshop, so here they are... Also i’ve done inktober and it was fun ig"
+            "text": "I learned Illustrator recently and fell for it, I really love doing infographics now."
         }
     ],
     "index_work_sect_button": "See more",
@@ -33,24 +20,19 @@
     "index_hobbies_cards": [
         {
             "title": "Coding",
-            "text": "I like code, i eat GPU and think like a bot bro"
+            "text": "Ever since I tried it, coding became my greatest passion"
         },
         {
             "title": "Design",
-            "text": "I do some funnsies with illustrator and photoshop ahah"
+            "text": "I recently discovered that I love this, it relaxes me."
         },
         {
             "title": "Gaming",
-            "text": "I like gamedesign and playing games so maybe one day i’ll work for some company uwu"
+            "text": "I love playing games, but gamedesign is also very interesting."
         }
     ],
     "index_skills_title": "Skills",
-    "index_skills_view_nav": [
-        "Langages",
-        "Technologies",
-        "Adobe",
-        "Microsoft"
-    ],
+    "index_skills_view_nav": ["Languages", "Technologies", "Adobe", "Microsoft"],
     "index_skills_view": [
         {
             "title": "Languages",
@@ -78,7 +60,7 @@
             "index_skills_view_element": [
                 {
                     "title": "Node.Js",
-                    "content": "I used it a lot for creating some Discord bots with DiscordJs, before I was good at coding."
+                    "content": "I used it a lot for creating some Discord bots, before I was good at coding."
                 }
             ]
         },
@@ -115,6 +97,21 @@
                     "content": "Everyone needs to know words, and so do I. I can type quite fast, and am used to the interface."
                 }
             ]
+        }
+    ],
+    "index_contact_title": "Contact me",
+    "index_contact_form_questions": [
+        {
+            "text": "Who are you ?",
+            "placeholder": "Mohamed Lee"
+        },
+        {
+            "text": "What's your email adress ?",
+            "placeholder": "example@contact.com"
+        },
+        {
+            "text": "What do you want to tell me ?",
+            "placeholder": "Hey ! I like the background color !"
         }
     ]
 }

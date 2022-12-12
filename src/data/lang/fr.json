@@ -1,0 +1,117 @@
+{
+    "index_navbar": ["<span class='color'>01.</span> À propos", "<span class='color'>02.</span> Réalisations", "<span class='color'>03.</span> Compétences", "<span class='color'>04.</span> Hobbies", "<span class='color'>05.</span> Contact"],
+    "index_main_title": ["Salut,", "C'est <em>Mathéo</em>."],
+    "index_main_subtitle": "Futur développeur web sur Angoulême.",
+    "index_about_title": "À propos",
+    "index_about_text": ["J'étudie actuellement en BUT des Métiers du Multimédia et de l'Internet sur Angoulême.", "J'ai commencé à m'intéresser à la programmation avec des bots Discord, à l'aide de Discord.Js. Finalement, je me suis passionné par l'algorithmique et j'en ai fait mon futur.", "À l'IUT j'ai découvert de nombreuses choses, que ce soit de meilleures pratiques de code ou des nouveaux langages"],
+    "index_work_title": "Mes réalisations",
+    "index_work_sect": [
+        {
+            "title": "Sites web",
+            "text": "Voilà quelques sites que j'ai pu réaliser à l'IUT ou sur mon temps personnel."
+        },
+        {
+            "title": "Illustrations",
+            "text": "Mon deuxième gros coup de coeur du MMI, j'ai beaucoup utilisé Illustrator sur mon temps personnel"
+        }
+    ],
+    "index_work_sect_button": "Voir plus",
+    "index_hobbies_title": "Hobbies",
+    "index_hobbies_cards": [
+        {
+            "title": "Code",
+            "text": "Ma plus grosse passion dans la vie depuis que je l'ai découvert."
+        },
+        {
+            "title": "Design",
+            "text": "Quelque chose de très relaxant et satisfaisant que j'ai vite apprécié"
+        },
+        {
+            "title": "Gaming",
+            "text": "J'adore jouer aux jeux vidéos, mais le gamedesign est très intéressant également."
+        }
+    ],
+    "index_skills_title": "Skills",
+    "index_skills_view_nav": ["Langages", "Technologies", "Adobe", "Microsoft"],
+    "index_skills_view": [
+        {
+            "title": "Langages",
+            "index_skills_view_element": [
+                {
+                    "title": "HTML / CSS",
+                    "content": "Je les ai beaucoup utilisé sans jamais avoir recourt à des templates ou des frameworks. Du bon vieux HTML/CSS pur."
+                },
+                {
+                    "title": "Javascript",
+                    "content": "Un de mes langages préférés, très satisfaisant à utiliser. Tout ce qui est fait en JS sur ce site est fait maison."
+                },
+                {
+                    "title": "PHP / SQL",
+                    "content": "J'ai apprit les bases de SQL, mais j'ai une bonne compréhension du PHP et je l'aime car on peut devenir les maîtres du web grâce à lui."
+                },
+                {
+                    "title": "Java",
+                    "content": "J'ai essentiellement utilisé Java durant l'année scolaire 2020-2021 et j'ai beaucoup perdu depuis."
+                }
+            ]
+        },
+        {
+            "title": "Technologies",
+            "index_skills_view_element": [
+                {
+                    "title": "Node.Js",
+                    "content": "Je l'ai beaucoup utilisé pour créer des bots Discord, avant d'avoir apprit à coder."
+                }
+            ]
+        },
+        {
+            "title": "Adobe",
+            "index_skills_view_element": [
+                {
+                    "title": "Illustrator",
+                    "content": "J'ai été fasciné par Illustrator et je l'ai beaucoup utilisé pour faire des logos, infographies et même des dessins !"
+                },
+                {
+                    "title": "Photoshop",
+                    "content": "J'ai beaucoup utilisé Photoshop durant ma jeunesse, pour photoshoper mes professeurs avec des pokéballs et leur faire attraper des Roucools."
+                },
+                {
+                    "title": "Premiere Pro",
+                    "content": "Je l'ai pas mal utilisé pour faire des petits montages sur Youtube, mais aujourd'hui il n'en reste que peu, que personne ne verra jamais."
+                },
+                {
+                    "title": "After Effects",
+                    "content": "Je connais les bases et les rudiments d'After Effects."
+                }
+            ]
+        },
+        {
+            "title": "Microsoft",
+            "index_skills_view_element": [
+                {
+                    "title": "Excel",
+                    "content": "J'ai fait plus d'Excel que je ne suis prêt à l'admettre, surtout pour des RPG. Je dois toujours avoir quelques feuilles qui trainent."
+                },
+                {
+                    "title": "Words",
+                    "content": "Tout le monde doit connaître Words, donc moi aussi. J'écrit vite et je suis habitué à l'interface."
+                }
+            ]
+        }
+    ],
+    "index_contact_title": "Me contacter",
+    "index_contact_form_questions": [
+        {
+            "text": "Qui est tu ?",
+            "placeholder": "Mohamed Lee"
+        },
+        {
+            "text": "Quelle est ton adresse mail ?",
+            "placeholder": "example@contact.fr"
+        },
+        {
+            "text": "Que veux tu me dire ?",
+            "placeholder": "Hey ! J'adore les couleurs !"
+        }
+    ]
+}

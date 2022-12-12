@@ -4,6 +4,10 @@ const slider = document.querySelector(".slider");
 
 let navElements = Array.from(nav_items);
 
+window.addEventListener("DOMContentLoaded", () => {
+    menu.scrollTo(0, 0);
+});
+
 /* SET THE FIRST LI AS ACTIVE */
 navElements[0].classList.add("active");
 slider.style.width = navElements[0].offsetWidth + "px";

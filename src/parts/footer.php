@@ -6,7 +6,7 @@
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 4rem;
+        gap: 8rem;
     }
 
     footer h3 {

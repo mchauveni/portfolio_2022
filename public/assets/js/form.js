@@ -67,6 +67,8 @@ let question_index = 0;
 
 window.addEventListener("DOMContentLoaded", () => {
     out_of.innerHTML = question_array.length;
+    question_wrapper.scrollTo(0, 0);
+    form.reset();
 });
 
 btn_next.addEventListener("click", (e) => {
@@ -175,6 +177,7 @@ function changeQuestionView(complete = false) {
     if (complete) {
         question_wrapper.scrollTo(0, question_wrapper.scrollHeight);
         form_result_div.animate(fadein_animation, { duration: 1000 });
+        btn_next.innerHTML = "Next";
     } else {
         // makes the ux pleaser change
         current_question.innerHTML = question_index + 1;

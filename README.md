@@ -6,14 +6,12 @@ TODO :
 
 IMPORTANT :
 
--   Clean EN
--   FR version
 -   Loader
--   RESPONSIVE AAAAH
 -   menu burger (aled)
 -   REFERENCEMENT
     -   Search console
     -   Sitemap
+-   FORM EN/FR
 
 NOT SO IMPORTANT :
 
@@ -22,7 +20,7 @@ NOT SO IMPORTANT :
 -   (maybe) Try another avatar for Hello (match color scheme) or at least change color for the better
 -   make a pending animation for the form
 -   maybe make work pages dynamic
--   zoom on the galleries
--   recheck the text content
+-   focus work : zoom on the galleries
 -   focus work : make a popup on the techno icon
 -   DO SOMETHING FOR THE HOBBIES LMAO
+-   contact form : make email adress test within the JS too 😔

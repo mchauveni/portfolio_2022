@@ -194,24 +194,24 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
         </section>
 
         <section id="contact">
-            <h2 class="section_title">Contact me</h2>
+            <h2 class="section_title"><?php echo $texts->index_contact_title ?></h2>
             <div class="section_content">
                 <form class="contact-form" action="../assets/script.php">
                     <span class="ux-pleaser"><span class="current-question">1</span>/<span class="out-of">?</span></span>
                     <div class="question-wrapper">
                         <div class="form-question">
-                            <label>Who are you ?</label>
-                            <input type="text" name="identity" placeholder="Mohamed Lee" required>
+                            <label><?php echo $texts->index_contact_form_questions[0]->text ?></label>
+                            <input type="text" name="identity" placeholder="<?php echo $texts->index_contact_form_questions[0]->placeholder ?>" required>
                             <span class="underline"></span>
                         </div>
                         <div class="form-question">
-                            <label>What's your email adress ?</label>
-                            <input type="text" name="email" placeholder="contact@entreprise.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                            <label><?php echo $texts->index_contact_form_questions[1]->text ?></label>
+                            <input type="text" name="email" placeholder="<?php echo $texts->index_contact_form_questions[1]->placeholder ?>" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                             <span class="underline"></span>
                         </div>
                         <div class="form-question">
-                            <label>What do you want to tell me ?</label>
-                            <input type="text" name="message" placeholder="Hey ! I like the background color !" required>
+                            <label><?php echo $texts->index_contact_form_questions[2]->text ?></label>
+                            <input type="text" name="message" placeholder="<?php echo $texts->index_contact_form_questions[2]->placeholder ?>" required>
                             <span class="underline"></span>
                         </div>
                         <div class="form-result">
