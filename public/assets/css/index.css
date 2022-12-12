@@ -293,7 +293,7 @@ a.preview-explore {
     }
 
     .svc-img {
-        margin: 1rem;
+        padding: 1rem;
         max-width: 60%;
         max-height: 60%;
     }
