@@ -52,7 +52,7 @@
         <h3><?php echo $texts->index_footer_links[2]->title; ?></h3>
         <ul>
             <li><a href="/tos"><?php echo $texts->index_footer_links[2]->content[0]; ?></a></li>
-            <li><a href=""><?php echo $texts->index_footer_links[2]->content[1]; ?></a></li>
+            <li><a href="/legal_notice"><?php echo $texts->index_footer_links[2]->content[1]; ?></a></li>
         </ul>
     </div>
 </footer>

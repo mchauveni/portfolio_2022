@@ -12,7 +12,7 @@ IMPORTANT :
 -   REFERENCEMENT
     -   Search console
     -   Sitemap
--   FOOTER EN FR
+-   ADD CV IN ABOUT ME
 
 NOT SO IMPORTANT :
 

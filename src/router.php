@@ -36,4 +36,7 @@ switch ($route) {
     case '/termofuse':
         require 'page/cgu.php';
         break;
+    case '/legal_notice':
+        require 'page/legal_notice.php';
+        break;
 }
