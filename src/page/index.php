@@ -17,6 +17,7 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
     <link rel="preload" href="/assets/fonts/K2D.ttf" as="font" type="font/ttf">
     <link rel="preload" href="/assets/fonts/Righteous.ttf" as="font" type="font/ttf">
     <title>Mathéo - Portfolio</title>
+    <script src="https://cdn.counter.dev/script.js" data-id="84cc6a26-b513-44b7-8020-719e2d147afe" data-utcoffset="1"></script>
     <!-- Matomo -->
     <script>
         var _paq = window._paq = window._paq || [];

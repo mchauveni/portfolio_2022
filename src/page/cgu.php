@@ -13,6 +13,7 @@ $texts = json_decode(file_get_contents('../src/data/lang/fr.json'));
     <link rel="shortcut icon" href="/assets/img/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/lists.css">
     <title>Conditions Générale d'Utilisation</title>
+    <script src="https://cdn.counter.dev/script.js" data-id="84cc6a26-b513-44b7-8020-719e2d147afe" data-utcoffset="1"></script>
     <!-- Matomo -->
     <script>
         var _paq = window._paq = window._paq || [];
