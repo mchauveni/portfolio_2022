@@ -17,9 +17,9 @@ $focus = findTheElement($focus_name, $illustrations);
     <link rel="shortcut icon" href="/assets/img/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/focus.css">
     <title><?php echo $focus->title ?></title>
-    <script src="https://cdn.counter.dev/script.js" data-id="84cc6a26-b513-44b7-8020-719e2d147afe" data-utcoffset="1"></script>
+    <script src="https://cdn.counter.dev/script.js" data-id="84cc6a26-b513-44b7-8020-719e2d147afe" data-utcoffset="1" defer></script>
     <!-- Matomo -->
-    <script>
+    <script defer>
         var _paq = window._paq = window._paq || [];
         /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
         _paq.push(['trackPageView']);

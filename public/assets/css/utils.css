@@ -1,11 +1,13 @@
 @font-face {
 	font-family: "K2D";
 	src: url("../fonts/K2D.ttf");
+	font-display: swap;
 }
 
 @font-face {
 	font-family: "Righteous";
 	src: url("../fonts/Righteous.ttf");
+	font-display: swap;
 }
 
 @keyframes fadeinScale {
