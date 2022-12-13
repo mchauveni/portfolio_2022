@@ -15,9 +15,6 @@ RewriteRule ^ index.php [L]
 <FilesMatch "\.(jpe?g|png|gif|webp|ttf|svg)$">
 Header set Cache-Control "max-age=2592000, public"
 </FilesMatch>
-<FilesMatch "\.(js)$">
-Header set Cache-Control "max-age=1800, public"
-</FilesMatch>
 </IfModule>
 # FIN en tête Cache-Control
 
