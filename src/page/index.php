@@ -14,8 +14,8 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
     <meta name="description" content="<?php echo $texts->meta_desc; ?>">
     <link rel="shortcut icon" href="/assets/img/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/index.css">
-    <link rel="preload" href="/assets/fonts/K2D.ttf" as="font" type="font/ttf" crossorigin />
-    <link rel="preload" href="/assets/fonts/Righteous.ttf" as="font" type="font/ttf" crossorigin />
+    <!-- <link rel="preload" href="/assets/fonts/K2D.ttf" as="font" type="font/ttf" crossorigin /> -->
+    <!-- <link rel="preload" href="/assets/fonts/Righteous.ttf" as="font" type="font/ttf" crossorigin /> -->
     <title>Mathéo Chaumet Venier - Portfolio</title>
     <script src="https://cdn.counter.dev/script.js" data-id="84cc6a26-b513-44b7-8020-719e2d147afe" data-utcoffset="1" defer></script>
     <!-- Matomo -->
