@@ -28,6 +28,7 @@ ExpiresByType image/gif "access plus 30 days"
 ExpiresByType image/png "access plus 30 days"
 ExpiresByType image/webp "access plus 30 days"
 ExpiresByType image/svg "access plus 30 days"
+ExpiresByType style/css "access plus 7 days year"
 ExpiresByType font/ttf "access plus 3 year"
 ExpiresDefault "access plus 30 days"
 </IfModule>
