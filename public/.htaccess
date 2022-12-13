@@ -15,6 +15,7 @@ RewriteRule ^ index.php [L]
 <FilesMatch "\.(jpe?g|png|gif|webp|ttf|svg)$">
 Header set Cache-Control "max-age=2592000, public"
 </FilesMatch>
+
 </IfModule>
 # FIN en tête Cache-Control
 
@@ -27,7 +28,7 @@ ExpiresByType image/gif "access plus 30 days"
 ExpiresByType image/png "access plus 30 days"
 ExpiresByType image/webp "access plus 30 days"
 ExpiresByType image/svg "access plus 30 days"
+ExpiresByType font/ttf "access plus 3 year"
 ExpiresDefault "access plus 30 days"
-</FilesMatch>
 </IfModule>
 # FIN en tête Expires
