@@ -65,6 +65,9 @@
 	--bg-secondary: #361944;
 	--bg-secondary-opacity: #36194480;
 	--txt-secondary: #ecc3ff;
+	--bg-popup: #0E0E0E;
+	--err: #521e1e;
+	--ok: #2c521e;
 }
 
 * {
@@ -215,6 +218,30 @@ a {
 p {
 	font-size: 1.2rem;
 	margin: 1.25rem 0;
+}
+
+*[popup] {
+	width: fit-content;
+}
+
+.popup {
+	position: absolute;
+	display: block;
+	word-break: break-all;
+	max-width: 15rem;
+	padding: 0.5rem;
+	padding-bottom: 1rem;
+	background-color: var(--bg-secondary);
+	color: #F2F5F7;
+	font-style: normal;
+	clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 0.5rem), calc(50% + 0.5rem) calc(100% - 0.5rem), 50% 100%, calc(50% - 0.5rem) calc(100% - 0.5rem), 0% calc(100% - 0.5rem));
+	opacity: 0;
+	transition: opacity 300ms, transform 300ms;
+}
+
+.popup.shown {
+	opacity: 1;
+	transform: translateY(-1rem);
 }
 
 .bg.greenit {

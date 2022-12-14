@@ -46,8 +46,8 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 3rem;
-        font-size: 1.rem;
+        gap: 1.5rem;
+        font-size: 1.1rem;
     }
 
     header li,

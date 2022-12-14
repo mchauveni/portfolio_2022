@@ -30,6 +30,10 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
                     <p><?php echo $texts->index_about_text[0]; ?></p>
                     <p><?php echo $texts->index_about_text[1]; ?></p>
                     <p><?php echo $texts->index_about_text[2]; ?></p>
+                    <div class="cv_wrapper">
+                        <a href="/cv_portfolio.pdf" class="download_cv">Download CV</a>
+                        <button class="copy_cv" popup popup-color="var(--ok)" popup-click popup-content="URL Copied !">Copy URL</button>
+                    </div>
                 </div>
                 <div class="img-wrapper">
                     <img src="./assets/img/hello.svg" alt="" id="hello_img">
@@ -255,6 +259,8 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
     <script src="./assets/js/lava_menu.js"></script>
     <script src="./assets/js/form.js"></script>
     <script src="./assets/js/nav.js"></script>
+    <script src="./assets/js/cv.js"></script>
+    <script src="./assets/js/popups.js"></script>
 </body>
 
 </html>
