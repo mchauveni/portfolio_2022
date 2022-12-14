@@ -1,23 +1,10 @@
 {
     "meta_desc": "Futur développeur web, jeune et passioné, j'essaie toujours de nouvelles choses et les rends intéressantes pour moi lorsque je me lance sur de nouveaux projets. Venez donc jeter un oeil à ce Portfolio.",
-    "index_navbar": [
-        "<span class='color'>01.</span> À propos",
-        "<span class='color'>02.</span> Réalisations",
-        "<span class='color'>03.</span> Compétences",
-        "<span class='color'>04.</span> Hobbies",
-        "<span class='color'>05.</span> Contact"
-    ],
-    "index_main_title": [
-        "Salut,",
-        "C'est <em>Mathéo</em>."
-    ],
+    "index_navbar": ["<span class='color'>01.</span> À propos", "<span class='color'>02.</span> Réalisations", "<span class='color'>03.</span> Compétences", "<span class='color'>04.</span> Hobbies", "<span class='color'>05.</span> Contact"],
+    "index_main_title": ["Salut,", "C'est <em>Mathéo</em>."],
     "index_main_subtitle": "Futur développeur web sur Angoulême.",
     "index_about_title": "À propos",
-    "index_about_text": [
-        "J'étudie actuellement en BUT des Métiers du Multimédia et de l'Internet sur Angoulême.",
-        "J'ai commencé à m'intéresser à la programmation avec des bots Discord, à l'aide de Discord.Js. Finalement, je me suis passionné par l'algorithmique et j'en ai fait mon futur.",
-        "À l'IUT j'ai découvert de nombreuses choses, que ce soit de meilleures pratiques de code ou des nouveaux langages"
-    ],
+    "index_about_text": ["J'étudie actuellement en BUT des Métiers du Multimédia et de l'Internet sur Angoulême.", "J'ai commencé à m'intéresser à la programmation avec des bots Discord, à l'aide de Discord.Js. Finalement, je me suis passionné par l'algorithmique et j'en ai fait mon futur.", "À l'IUT j'ai découvert de nombreuses choses, que ce soit de meilleures pratiques de code ou des nouveaux langages"],
     "index_work_title": "Mes réalisations",
     "index_work_sect": [
         {
@@ -45,13 +32,8 @@
             "text": "J'adore jouer aux jeux vidéos, mais le gamedesign est très intéressant également."
         }
     ],
-    "index_skills_title": "Skills",
-    "index_skills_view_nav": [
-        "Langages",
-        "Technologies",
-        "Adobe",
-        "Microsoft"
-    ],
+    "index_skills_title": "Compétences",
+    "index_skills_view_nav": ["Langages", "Technologies", "Adobe", "Microsoft"],
     "index_skills_view": [
         {
             "title": "Langages",
@@ -136,25 +118,15 @@
     "index_footer_links": [
         {
             "title": "Liens",
-            "content": [
-                "Liste des sites",
-                "Liste des illustrations"
-            ]
+            "content": ["Liste des sites", "Liste des illustrations"]
         },
         {
             "title": "Réseaux",
-            "content": [
-                "Github",
-                "LinkedIn",
-                "Twitter"
-            ]
+            "content": ["Github", "LinkedIn", "Twitter"]
         },
         {
             "title": "Légal",
-            "content": [
-                "CGU",
-                "Mentions légales"
-            ]
+            "content": ["CGU", "Mentions légales"]
         }
     ]
 }

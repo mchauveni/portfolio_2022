@@ -10,19 +10,21 @@ IMPORTANT :
 -   Loader
 -   menu burger (aled)
 -   REFERENCEMENT
-    -   Search console
-    -   Sitemap
+    -   Search console (look for indexation)
+    -   Sitemap NEEDS TO WORK (htaccess action ???)
 -   ADD CV IN ABOUT ME
+-   DO SOMETHING FOR THE HOBBIES LMAO
 
 NOT SO IMPORTANT :
 
--   index : balls animation
--   (maybe) Try another avatar for Hello (match color scheme) or at least change color for the better
--   index form : make a pending animation for the form
+-   header : font size needs increase
 -   index : make a scroll cue
+-   index : balls animation
+-   index titles : make typewriter animation with observers
+-   index form : make a pending animation for the form
+-   contact form : make email adress test within the JS too 😔
+-   index skill view : horizontal scrollcue on mobile
+-   index hobbies : Change/add hobbies icons
 -   focus work : zoom on the galleries
 -   focus work : make a popup on the techno icon
--   index skill view : horizontal scrollcue on mobile
--   Change/add hobbies icons
--   DO SOMETHING FOR THE HOBBIES LMAO
--   contact form : make email adress test within the JS too 😔
+-   (maybe) Try another avatar for Hello (match color scheme) or at least change color for the better
