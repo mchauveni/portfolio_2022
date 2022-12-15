@@ -220,7 +220,7 @@ p {
 	margin: 1.25rem 0;
 }
 
-*[popup] {
+*[popup]:not(img) {
 	width: fit-content;
 }
 

@@ -31,7 +31,7 @@ $focus = findTheElement($focus_name, $illustrations);
                         <?php
                         foreach ($focus->technos as $techno) {
                         ?>
-                            <img src="/assets/img/techno_icons/<?php echo $techno ?>.svg" alt="">
+                            <img src="/assets/img/techno_icons/<?php echo $techno ?>.svg" alt="<?php echo $techno ?>" popup popup-content="<?php echo ucfirst($techno) ?>" popup-color="var(--bg-main)">
                         <?php
                         }
                         ?>

@@ -53,6 +53,7 @@
     header li,
     header a {
         display: block;
+        position: relative;
         text-decoration: none;
     }
 
@@ -68,7 +69,6 @@
             content: "";
             width: 100%;
             height: 2px;
-            bottom: 35%;
             left: 0;
             display: block;
             position: absolute;

@@ -17,13 +17,13 @@ NOT SO IMPORTANT :
 -   menu burger (aled)
 -   index titles : make typewriter animation with observers
 -   index form : make a pending animation for the form
+-   index : make a scroll cue
 -   contact form : make email adress test within the JS too 😔
 -   index skill view : horizontal scrollcue on mobile
 -   focus work : zoom on the galleries
--   (maybe) Try another avatar for Hello (match color scheme) or at least change color for the better
 
 OPTIONAL :
 
--   index : make a scroll cue
 -   index : balls animation
 -   index hobbies : Change/add hobbies icons
+-   (maybe) Try another avatar for Hello (match color scheme) or at least change color for the better
