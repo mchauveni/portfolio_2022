@@ -46,6 +46,7 @@
             <li><a href="https://github.com/Kaosbeing"><?php echo $texts->index_footer_links[1]->content[0]; ?></a></li>
             <li><a href="https://www.linkedin.com/in/math%C3%A9o-chaumet-venier-1ab02b257/"><?php echo $texts->index_footer_links[1]->content[1]; ?></a></li>
             <li><a href="https://twitter.com/ChaosLeChaos"><?php echo $texts->index_footer_links[1]->content[2]; ?></a></li>
+            <li><a href="https://www.op.gg/summoners/euw/Chaosbeing"><?php echo $texts->index_footer_links[1]->content[3]; ?></a></li>
         </ul>
     </div>
     <div class="footer-legal">

@@ -76,7 +76,6 @@
         display: flex;
         align-items: center;
         transform-origin: center;
-        transform: translateY(-50%) rotate(-90deg);
     }
 
     @media screen and (min-width: 992px) {
@@ -103,7 +102,6 @@
             position: fixed;
             top: 70vh;
             left: 3rem;
-
         }
 
         .lang_toggler_wrapper a:after {
@@ -120,6 +118,10 @@
             width: 2px;
             height: 100vh;
             background-color: var(--txt-secondary);
+        }
+
+        .lang_toggler {
+            transform: translateY(-50%) rotate(-90deg);
         }
 
     }

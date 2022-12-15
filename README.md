@@ -6,7 +6,6 @@ TODO :
 
 IMPORTANT :
 
--   Langs toggle integration (how to change languages ?)
 -   Loader
 -   REFERENCEMENT
 -   DO SOMETHING FOR THE HOBBIES LMAO

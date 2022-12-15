@@ -2,7 +2,7 @@
     "meta_desc": "Futur développeur web, jeune et passioné, j'essaie toujours de nouvelles choses et les rends intéressantes pour moi lorsque je me lance sur de nouveaux projets. Venez donc jeter un oeil à ce Portfolio.",
     "index_navbar": ["<span class='color'>01.</span> À propos", "<span class='color'>02.</span> Réalisations", "<span class='color'>03.</span> Compétences", "<span class='color'>04.</span> Hobbies", "<span class='color'>05.</span> Contact"],
     "index_main_title": ["Salut,", "C'est <em>Mathéo</em>."],
-    "index_main_subtitle": "Futur développeur web sur Angoulême.",
+    "index_main_subtitle": "Futur développeur web à Angoulême.",
     "index_about_title": "À propos",
     "index_about_text": ["J'étudie actuellement en BUT des Métiers du Multimédia et de l'Internet sur Angoulême.", "J'ai commencé à m'intéresser à la programmation avec des bots Discord, à l'aide de Discord.Js. Finalement, je me suis passionné par l'algorithmique et j'en ai fait mon futur.", "À l'IUT j'ai découvert de nombreuses choses, que ce soit de meilleures pratiques de code ou des nouveaux langages"],
     "index_about_cv": {
@@ -53,7 +53,7 @@
                 },
                 {
                     "title": "PHP / SQL",
-                    "content": "J'ai apprit les bases de SQL, mais j'ai une bonne compréhension du PHP et je l'aime car on peut devenir les maîtres du web grâce à lui."
+                    "content": "J'ai appris les bases de SQL, mais j'ai une bonne compréhension du PHP et je l'aime car on peut devenir les maîtres du web grâce à lui."
                 },
                 {
                     "title": "Java",
@@ -66,7 +66,7 @@
             "index_skills_view_element": [
                 {
                     "title": "Node.Js",
-                    "content": "Je l'ai beaucoup utilisé pour créer des bots Discord, avant d'avoir apprit à coder."
+                    "content": "Je l'ai beaucoup utilisé pour créer des bots Discord, avant d'avoir appris à coder."
                 }
             ]
         },
@@ -96,7 +96,7 @@
             "index_skills_view_element": [
                 {
                     "title": "Excel",
-                    "content": "J'ai fait plus d'Excel que je ne suis prêt à l'admettre, surtout pour des RPG. Je dois toujours avoir quelques feuilles qui trainent."
+                    "content": "J'ai fais plus d'Excel que je ne suis prêt à l'admettre, surtout pour des RPG. Je dois toujours avoir quelques feuilles qui trainent."
                 },
                 {
                     "title": "Words",
@@ -108,7 +108,7 @@
     "index_contact_title": "Me contacter",
     "index_contact_form_questions": [
         {
-            "text": "Qui est tu ?",
+            "text": "Qui es tu ?",
             "placeholder": "Mohamed Lee"
         },
         {
@@ -127,7 +127,7 @@
         },
         {
             "title": "Réseaux",
-            "content": ["Github", "LinkedIn", "Twitter"]
+            "content": ["Github", "LinkedIn", "Twitter", "op.gg"]
         },
         {
             "title": "Légal",
