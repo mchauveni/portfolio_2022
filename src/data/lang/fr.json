@@ -5,6 +5,11 @@
     "index_main_subtitle": "Futur développeur web sur Angoulême.",
     "index_about_title": "À propos",
     "index_about_text": ["J'étudie actuellement en BUT des Métiers du Multimédia et de l'Internet sur Angoulême.", "J'ai commencé à m'intéresser à la programmation avec des bots Discord, à l'aide de Discord.Js. Finalement, je me suis passionné par l'algorithmique et j'en ai fait mon futur.", "À l'IUT j'ai découvert de nombreuses choses, que ce soit de meilleures pratiques de code ou des nouveaux langages"],
+    "index_about_cv": {
+        "download": "Télécharger le CV",
+        "copylink": "Copier l'URL",
+        "copylink_popup": "URL copié !"
+    },
     "index_work_title": "Mes réalisations",
     "index_work_sect": [
         {

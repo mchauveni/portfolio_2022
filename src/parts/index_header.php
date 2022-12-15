@@ -67,6 +67,18 @@
         position: relative;
     }
 
+    .lang_toggler_wrapper a {
+        padding: 1rem;
+        width: min-content;
+    }
+
+    .lang_toggler {
+        display: flex;
+        align-items: center;
+        transform-origin: center;
+        transform: translateY(-50%) rotate(-90deg);
+    }
+
     @media screen and (min-width: 992px) {
 
         header a:after {
@@ -86,6 +98,30 @@
         header a:hover:after {
             transform: scale(1);
         }
+
+        .lang_toggler_wrapper {
+            position: fixed;
+            top: 70vh;
+            left: 3rem;
+
+        }
+
+        .lang_toggler_wrapper a:after {
+            bottom: 0.75rem;
+            left: 1rem;
+            width: calc(100% - 2rem);
+        }
+
+        .lang_toggler_wrapper::after {
+            content: "";
+            position: absolute;
+            bottom: -100vh;
+            left: 50%;
+            width: 2px;
+            height: 100vh;
+            background-color: var(--txt-secondary);
+        }
+
     }
 
     @media screen and (max-width: 576px) {
@@ -116,5 +152,12 @@
                 <li><a href="#contact"><?php echo $texts->index_navbar[4]; ?></a></li>
             </ul>
         </nav>
+        <div class="lang_toggler_wrapper">
+            <div class="lang_toggler">
+                <a href="/home?lang=en">EN</a>
+                <span> / </span>
+                <a href="/home?lang=fr">FR</a>
+            </div>
+        </div>
     </div>
 </header>

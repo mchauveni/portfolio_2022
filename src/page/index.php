@@ -2,7 +2,20 @@
 <html lang="en">
 
 <?php
-$texts = json_decode(file_get_contents('../src/data/lang/fr.json'));
+session_start();
+$lang = 'fr'; // default
+if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['lang'])) {
+    if ($_GET['lang'] != 'fr' && $_GET['lang'] != 'en') {
+        return header('Location: /home');
+    } else {
+        $lang = $_GET['lang'];
+        $_SESSION['lang'] = $lang;
+    }
+} else if (isset($_SESSION['lang'])) {
+    $lang = $_SESSION['lang'];
+}
+
+$texts = json_decode(file_get_contents("../src/data/lang/$lang.json"));
 $websites = json_decode(file_get_contents('../src/data/work_content/websites.json'));
 $illustrations = json_decode(file_get_contents('../src/data/work_content/illustrations.json'));
 ?>
@@ -31,8 +44,8 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
                     <p><?php echo $texts->index_about_text[1]; ?></p>
                     <p><?php echo $texts->index_about_text[2]; ?></p>
                     <div class="cv_wrapper">
-                        <a href="/cv_portfolio.pdf" class="download_cv">Download CV</a>
-                        <button class="copy_cv" popup popup-color="var(--ok)" popup-click popup-content="URL Copied !">Copy URL</button>
+                        <a href="/cv_portfolio.pdf" class="download_cv"><?php echo $texts->index_about_cv->download; ?></a>
+                        <button class="copy_cv" popup popup-color="var(--ok)" popup-click popup-content="<?php echo $texts->index_about_cv->copylink_popup; ?>"><?php echo $texts->index_about_cv->copylink; ?></button>
                     </div>
                 </div>
                 <div class="img-wrapper">
