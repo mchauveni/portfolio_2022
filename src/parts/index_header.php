@@ -100,7 +100,7 @@
 
         .lang_toggler_wrapper {
             position: fixed;
-            top: 70vh;
+            top: 80vh;
             left: 3rem;
         }
 
@@ -115,7 +115,8 @@
             position: absolute;
             bottom: -100vh;
             left: 50%;
-            width: 2px;
+            width: 3px;
+            transform: translateX(-50%);
             height: 100vh;
             background-color: var(--txt-secondary);
         }
