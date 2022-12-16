@@ -9,10 +9,11 @@ IMPORTANT :
 -   Loader
 -   REFERENCEMENT
 -   DO SOMETHING FOR THE HOBBIES LMAO
--   FOTES D'ORTHO GRAPHES
+-   FOTES D'ORTHO GRAPHES (sites)
 
 NOT SO IMPORTANT :
 
+-   passer les popups en dataset
 -   menu burger (aled)
 -   index titles : make typewriter animation with observers
 -   index form : make a pending animation for the form

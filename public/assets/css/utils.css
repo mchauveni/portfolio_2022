@@ -255,3 +255,7 @@ p {
 .bg.inktober {
 	background: center / cover no-repeat url(../img/works/inktober/.cover.png);
 }
+
+.bg.portfolio {
+	background: center / cover no-repeat url(../img/works/portfolio/.cover.svg);
+}

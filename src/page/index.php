@@ -28,6 +28,7 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
 
 
 <body>
+    <?php require '../src/parts/loader.php'; ?>
     <?php require '../src/parts/index_header.php'; ?>
     <main>
         <section id="hero">
