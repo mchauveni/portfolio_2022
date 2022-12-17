@@ -54,7 +54,8 @@ $focus = findTheElement($focus_name, $illustrations);
                     <?php
                     $gallery = array_diff(scandir('./assets/img/works/' . $focus->class), array('.', '..'));
                     foreach ($gallery as $img) {
-                        echo "<img src='/assets/img/works/$focus->class/$img'>";
+                        $ctx = ucwords(str_replace('_', ' ', explode('.', $img)[0]));
+                        echo "<img src='/assets/img/works/$focus->class/$img' alt='$ctx'>";
                     }
                     ?>
                 </div>

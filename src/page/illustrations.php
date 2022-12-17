@@ -30,7 +30,6 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
             foreach ($illustrations as $element) {
                 require '../src/parts/list_item.php';
             }
-
             ?>
 
         </section>
