@@ -15,8 +15,6 @@ window.addEventListener("DOMContentLoaded", () => {
             color = undefined;
         }
 
-        console.log(element.dataset.popupClick);
-
         if (typeof element.dataset.popupClick !== "undefined") {
             element.addEventListener("click", (e) => {
                 popupAppear(popupCreate(), e.target, color);
