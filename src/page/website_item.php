@@ -31,7 +31,7 @@ $focus = findTheElement($focus_name, $websites);
                         <?php
                         foreach ($focus->technos as $techno) {
                         ?>
-                            <img src="/assets/img/techno_icons/<?php echo $techno ?>.svg" alt="<?php echo $techno ?>" popup popup-content="<?php echo strtoupper($techno) ?>" popup-color="var(--bg-main)">
+                            <img src="/assets/img/techno_icons/<?php echo $techno ?>.svg" alt="<?php echo $techno ?>" data-popup data-popup-content="<?php echo strtoupper($techno) ?>" data-popup-color="var(--bg-main)">
                         <?php
                         }
                         ?>

@@ -46,7 +46,7 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
                     <p><?php echo $texts->index_about_text[2]; ?></p>
                     <div class="cv_wrapper">
                         <a href="/cv_portfolio.pdf" class="download_cv"><?php echo $texts->index_about_cv->download; ?></a>
-                        <button class="copy_cv" popup popup-color="var(--ok)" popup-click popup-content="<?php echo $texts->index_about_cv->copylink_popup; ?>"><?php echo $texts->index_about_cv->copylink; ?></button>
+                        <button class="copy_cv" data-popup data-popup-color="var(--ok)" data-popup-click data-popup-content="<?php echo $texts->index_about_cv->copylink_popup; ?>"><?php echo $texts->index_about_cv->copylink; ?></button>
                     </div>
                 </div>
                 <div class="img-wrapper">

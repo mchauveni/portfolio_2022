@@ -4,18 +4,20 @@ window.addEventListener("DOMContentLoaded", () => {
         lifespan: "1000",
     };
 
-    let element_with_popup_array = Array.from(document.querySelectorAll("[popup]"));
+    let element_with_popup_array = Array.from(document.querySelectorAll("[data-popup]"));
     let popup_array = [];
 
     element_with_popup_array.forEach((element) => {
         let color;
-        if (element.hasAttribute("popup-color")) {
-            color = element.getAttribute("popup-color");
+        if (element.dataset.popupColor) {
+            color = element.dataset.popupColor;
         } else {
             color = undefined;
         }
 
-        if (element.hasAttribute("popup-click")) {
+        console.log(element.dataset.popupClick);
+
+        if (typeof element.dataset.popupClick !== "undefined") {
             element.addEventListener("click", (e) => {
                 popupAppear(popupCreate(), e.target, color);
                 popupHold(1000);
@@ -34,7 +36,7 @@ window.addEventListener("DOMContentLoaded", () => {
     function popupAppear(popup, element, color = defaultSettings.color, lifespan = defaultSettings.lifespan) {
         var pos = element.getBoundingClientRect();
 
-        popup.innerHTML = element.getAttribute("popup-content");
+        popup.innerHTML = element.dataset.popupContent;
         popup.style.top = pos.top + window.scrollY - popup.offsetHeight + "px"; // Put popup on top of element
         popup.style.left = pos.left + element.offsetWidth / 2 - popup.offsetWidth / 2 + "px"; // Put center of popup on center of the element
         popup.style.backgroundColor = color;
