@@ -55,7 +55,7 @@ $focus = findTheElement($focus_name, $websites);
                     $gallery = array_diff(scandir('./assets/img/works/' . $focus->class), array('.', '..'));
                     foreach ($gallery as $img) {
                         $ctx = str_replace('_', ' ', ucfirst(explode('.', $img)[0]));
-                        echo "<img src='/assets/img/works/$focus->class/$img' alt='$ctx'>";
+                        echo "<img src='/assets/img/works/$focus->class/$img' alt='$ctx' data-zoom>";
                     }
                     ?>
                 </div>
@@ -64,6 +64,7 @@ $focus = findTheElement($focus_name, $websites);
     </main>
 
     <?php require '../src/parts/footer.php' ?>
+    <script src="/assets/js/zoom.js"></script>
 </body>
 
 </html>
