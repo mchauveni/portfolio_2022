@@ -3,6 +3,18 @@
  */
 @import url(./utils.css);
 
+nav a,
+.lang_toggler_wrapper,
+.main-title,
+h1 {
+	transition: 300ms;
+}
+
+.section_title,
+.section_content {
+	transition: 500ms 200ms;
+}
+
 .section_content {
 	margin-top: 5rem;
 }

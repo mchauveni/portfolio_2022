@@ -268,13 +268,13 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
 
     <?php require '../src/parts/footer.php' ?>
 
-    <script src="./assets/js/typewriter.js"></script>
-    <script src="./assets/js/hello.js"></script>
-    <script src="./assets/js/lava_menu.js"></script>
-    <script src="./assets/js/form.js"></script>
-    <script src="./assets/js/nav.js"></script>
-    <script src="./assets/js/cv.js"></script>
-    <script src="./assets/js/popups.js"></script>
+    <script src="/assets/js/hello.js"></script>
+    <script src="/assets/js/lava_menu.js"></script>
+    <script src="/assets/js/form.js"></script>
+    <script src="/assets/js/nav.js"></script>
+    <script src="/assets/js/cv.js"></script>
+    <script src="/assets/js/popups.js"></script>
+    <script src="/assets/js/observers.js"></script>
 </body>
 
 </html>
