@@ -6,7 +6,6 @@ TODO :
 
 IMPORTANT :
 
--   Loader
 -   REFERENCEMENT
 -   DO SOMETHING FOR THE HOBBIES LMAO
 -   FOTES D'ORTHO GRAPHES (sites)
@@ -20,7 +19,6 @@ NOT SO IMPORTANT :
 -   index : make a scroll cue
 -   contact form : make email adress test within the JS too 😔
 -   index skill view : horizontal scrollcue on mobile
--   focus work : zoom on the galleries
 
 OPTIONAL :
 
