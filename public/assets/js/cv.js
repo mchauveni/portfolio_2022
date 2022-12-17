@@ -1,3 +1,5 @@
+/* CODE FOR COPYING CV URL WHEN CLICKING CV BUTTON */
+
 let btn = document.querySelector(".copy_cv");
 
 btn.addEventListener("click", () => {

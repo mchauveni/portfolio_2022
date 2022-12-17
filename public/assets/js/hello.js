@@ -1,3 +1,5 @@
+/* PARRALAX FOR THE HELLO CHARACTER IN INDEX */
+
 const img = document.querySelector("#hello_img");
 const about_section = document.querySelector("#about");
 

@@ -1,5 +1,4 @@
-/* TO REMLOVE LATER, ITS JUST HERE FOR CONVENIENCE BECAUSE RELOADING THE PAGE TAKES ME LIKE ALL THE WAY UP EVERYTIME */
-//window.scrollTo(0, 5000);
+/* CODE FOR THE FORM : MAKE SCROLL & CO */
 
 const $ = (el) => {
     return document.querySelector(el);

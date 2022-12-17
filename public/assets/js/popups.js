@@ -1,3 +1,5 @@
+/* THE POPUP INCIDENT */
+
 window.addEventListener("DOMContentLoaded", () => {
     defaultSettings = {
         color: "var(--bg-secondary)",

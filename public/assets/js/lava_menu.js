@@ -1,3 +1,5 @@
+/* CODE FOR THE LAVA MENU */
+
 const nav_items = document.querySelectorAll(".nav-item");
 const menu = document.querySelector(".skill-view");
 const slider = document.querySelector(".slider");

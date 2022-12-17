@@ -1,3 +1,5 @@
+/* CODE FOR THE NAV : MAKE IT SCROLL A LITTLE LESS */
+
 const nav_array = document.querySelectorAll("nav ul a");
 
 nav_array.forEach((link) => {

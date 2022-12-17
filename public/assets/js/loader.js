@@ -1,3 +1,4 @@
+/* CODE FOR THE LOADER : MAKE IT DISAPEAR */
 /* STOLEN FROM ALEX EHEH */
 
 let startLoad = window.performance.now();

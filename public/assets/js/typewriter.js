@@ -1,3 +1,5 @@
+/* TYPEWRITER FOR THE H1 */
+
 let titles = document.querySelectorAll("h1");
 
 let i = 0;
