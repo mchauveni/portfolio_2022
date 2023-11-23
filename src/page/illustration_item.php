@@ -31,7 +31,7 @@ $focus = findTheElement($focus_name, $illustrations);
                         <?php
                         foreach ($focus->technos as $techno) {
                         ?>
-                            <img src="/assets/img/techno_icons/<?php echo $techno ?>.svg" alt="<?php echo $techno ?>" data-popup data-popup-content="<?php echo ucfirst($techno) ?>" data-popup-color="var(--bg-main)">
+                            <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/techno_icons/<?php echo $techno ?>.svg" alt="<?php echo $techno ?>" data-popup data-popup-content="<?php echo ucfirst($techno) ?>" data-popup-color="var(--bg-main)">
                         <?php
                         }
                         ?>
@@ -55,7 +55,9 @@ $focus = findTheElement($focus_name, $illustrations);
                     $gallery = array_diff(scandir('./assets/img/works/' . $focus->class), array('.', '..'));
                     foreach ($gallery as $img) {
                         $ctx = ucwords(str_replace('_', ' ', explode('.', $img)[0]));
-                        echo "<img src='/assets/img/works/$focus->class/$img' alt='$ctx' data-zoom>";
+                    ?>
+                        <img src='<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/works/$focus->class/$img' alt='$ctx' data-zoom>;
+                    <?php
                     }
                     ?>
                 </div>
@@ -64,7 +66,7 @@ $focus = findTheElement($focus_name, $illustrations);
     </main>
 
     <?php require '../src/parts/footer.php' ?>
-    <script src="/assets/js/zoom.js"></script>
+    <script src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/js/zoom.js"></script>
 </body>
 
 </html>

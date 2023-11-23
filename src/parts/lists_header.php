@@ -98,15 +98,15 @@
 <header>
     <div class="header-wrapper">
         <div class="logo-container">
-            <a href="/" id="logo-link" aria-label="home">
-                <img src="/assets/img/logo.svg" alt="">
+            <a href="<?php echo APP_ROOT_URL_COMPLETE ?>/" id="logo-link" aria-label="home">
+                <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/logo.svg" alt="">
             </a>
         </div>
         <nav>
             <ul>
-                <li><a href="/">Accueil</a></li>
-                <li><a href="/websites">Sites Web</a></li>
-                <li><a href="/illustrations">Illustrations</a></li>
+                <li><a href="<?php echo APP_ROOT_URL_COMPLETE ?>/">Accueil</a></li>
+                <li><a href="<?php echo APP_ROOT_URL_COMPLETE ?>/websites">Sites Web</a></li>
+                <li><a href="<?php echo APP_ROOT_URL_COMPLETE ?>/illustrations">Illustrations</a></li>
             </ul>
         </nav>
     </div>

@@ -1,5 +1,5 @@
 <?php
-define('APP_ROOT_URL', str_replace('/index.php', '', $_SERVER['SCRIPT_NAME']));
+require 'config.php';
 require 'scripts/utils.php';
 
 // traiter les différentes routes

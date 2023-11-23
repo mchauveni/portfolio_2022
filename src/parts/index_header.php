@@ -142,8 +142,8 @@
 <header>
     <div class="header-wrapper">
         <div class="logo-container">
-            <a href="/" id="logo-link" aria-label="home">
-                <img src="./assets/img/logo.svg" alt="">
+            <a href="<?php echo APP_ROOT_URL_COMPLETE ?>/" id="logo-link" aria-label="home">
+                <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/logo.svg" alt="">
             </a>
         </div>
         <nav>
@@ -157,9 +157,9 @@
         </nav>
         <div class="lang_toggler_wrapper">
             <div class="lang_toggler">
-                <a href="/home?lang=en">EN</a>
+                <a href="<?php echo APP_ROOT_URL_COMPLETE ?>/home?lang=en">EN</a>
                 <span> / </span>
-                <a href="/home?lang=fr">FR</a>
+                <a href="<?php echo APP_ROOT_URL_COMPLETE ?>/home?lang=fr">FR</a>
             </div>
         </div>
     </div>

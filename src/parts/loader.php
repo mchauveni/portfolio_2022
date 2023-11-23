@@ -260,4 +260,4 @@
     </div>
 </div>
 
-<script src="/assets/js/loader.js"></script>
+<script src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/js/loader.js"></script>

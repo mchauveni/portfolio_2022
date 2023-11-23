@@ -45,12 +45,12 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
                     <p><?php echo $texts->index_about_text[1]; ?></p>
                     <p><?php echo $texts->index_about_text[2]; ?></p>
                     <div class="cv_wrapper">
-                        <a href="/cv_portfolio.pdf" class="download_cv"><?php echo $texts->index_about_cv->download; ?></a>
+                        <a href="<?php echo APP_ROOT_URL_COMPLETE ?>/cv_portfolio.pdf" class="download_cv"><?php echo $texts->index_about_cv->download; ?></a>
                         <button class="copy_cv" data-popup data-popup-color="var(--ok)" data-popup-click data-popup-content="<?php echo $texts->index_about_cv->copylink_popup; ?>"><?php echo $texts->index_about_cv->copylink; ?></button>
                     </div>
                 </div>
                 <div class="img-wrapper">
-                    <img src="./assets/img/hello.svg" alt="" id="hello_img">
+                    <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/hello.svg" alt="" id="hello_img">
                 </div>
             </div>
         </section>
@@ -64,9 +64,9 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
                         <p><?php echo $texts->index_work_sect[0]->text; ?></p>
                     </div>
                     <div class="preview">
-                        <a href="/website/<?php echo $websites[count($websites) - 1]->class ?>" class="bg <?php echo $websites[count($websites) - 1]->class ?>"></a>
-                        <a href="/website/<?php echo $websites[count($websites) - 2]->class ?>" class="bg <?php echo $websites[count($websites) - 2]->class ?>"></a>
-                        <a href="./websites" class="preview-explore">
+                        <a href="<?php echo APP_ROOT_URL_COMPLETE ?>/website/<?php echo $websites[count($websites) - 1]->class ?>" class="bg <?php echo $websites[count($websites) - 1]->class ?>"></a>
+                        <a href="<?php echo APP_ROOT_URL_COMPLETE ?>/website/<?php echo $websites[count($websites) - 2]->class ?>" class="bg <?php echo $websites[count($websites) - 2]->class ?>"></a>
+                        <a href="<?php echo APP_ROOT_URL_COMPLETE ?>/websites" class="preview-explore">
                             <p><?php echo $texts->index_work_sect_button; ?></p>
                         </a>
                     </div>
@@ -78,9 +78,9 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
                         <p><?php echo $texts->index_work_sect[1]->text; ?></p>
                     </div>
                     <div class="preview">
-                        <a href="/illustration/<?php echo $illustrations[count($illustrations) - 1]->class ?>" class="bg <?php echo $illustrations[count($illustrations) - 1]->class ?>"></a>
-                        <a href="/illustration/<?php echo $illustrations[count($illustrations) - 2]->class ?>" class="bg <?php echo $illustrations[count($illustrations) - 2]->class ?>"></a>
-                        <a href="./illustrations" class="preview-explore">
+                        <a href="<?php echo APP_ROOT_URL_COMPLETE ?>/illustration/<?php echo $illustrations[count($illustrations) - 1]->class ?>" class="bg <?php echo $illustrations[count($illustrations) - 1]->class ?>"></a>
+                        <a href="<?php echo APP_ROOT_URL_COMPLETE ?>/illustration/<?php echo $illustrations[count($illustrations) - 2]->class ?>" class="bg <?php echo $illustrations[count($illustrations) - 2]->class ?>"></a>
+                        <a href="<?php echo APP_ROOT_URL_COMPLETE ?>/illustrations" class="preview-explore">
                             <p><?php echo $texts->index_work_sect_button; ?></p>
                         </a>
                     </div>
@@ -106,28 +106,28 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
                         <div class="sv-content-wrapper">
                             <div class="svc-element">
                                 <div class="svc-img-wrapper">
-                                    <img src="./assets/img/skill_icons/html_css_icon.svg" alt="icon that reminds the HTML and CSS icon" class="svc-img">
+                                    <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/skill_icons/html_css_icon.svg" alt="icon that reminds the HTML and CSS icon" class="svc-img">
                                 </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[0]->index_skills_view_element[0]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[0]->index_skills_view_element[0]->content; ?></p>
                             </div>
                             <div class="svc-element">
                                 <div class="svc-img-wrapper">
-                                    <img src="./assets/img/skill_icons/javascript_icon.svg" alt="the javascript icon" class="svc-img">
+                                    <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/skill_icons/javascript_icon.svg" alt="the javascript icon" class="svc-img">
                                 </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[0]->index_skills_view_element[1]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[0]->index_skills_view_element[1]->content; ?></p>
                             </div>
                             <div class="svc-element">
                                 <div class="svc-img-wrapper">
-                                    <img src="./assets/img/skill_icons/php_sql_icon.svg" alt="" class="svc-img">
+                                    <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/skill_icons/php_sql_icon.svg" alt="" class="svc-img">
                                 </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[0]->index_skills_view_element[2]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[0]->index_skills_view_element[2]->content; ?></p>
                             </div>
                             <div class="svc-element">
                                 <div class="svc-img-wrapper">
-                                    <img src="./assets/img/skill_icons/java_icon.svg" alt="" class="svc-img">
+                                    <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/skill_icons/java_icon.svg" alt="" class="svc-img">
                                 </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[0]->index_skills_view_element[3]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[0]->index_skills_view_element[3]->content; ?></p>
@@ -139,7 +139,7 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
                         <div class="sv-content-wrapper">
                             <div class="svc-element">
                                 <div class="svc-img-wrapper">
-                                    <img src="./assets/img/skill_icons/nodejs_icon.svg" alt="" class="svc-img">
+                                    <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/skill_icons/nodejs_icon.svg" alt="" class="svc-img">
                                 </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[1]->index_skills_view_element[0]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[1]->index_skills_view_element[0]->content; ?></p>
@@ -151,28 +151,28 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
                         <div class="sv-content-wrapper">
                             <div class="svc-element">
                                 <div class="svc-img-wrapper">
-                                    <img src="./assets/img/skill_icons/illustrator_icon.svg" alt="" class="svc-img">
+                                    <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/skill_icons/illustrator_icon.svg" alt="" class="svc-img">
                                 </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[2]->index_skills_view_element[0]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[2]->index_skills_view_element[0]->content; ?></p>
                             </div>
                             <div class="svc-element">
                                 <div class="svc-img-wrapper">
-                                    <img src="./assets/img/skill_icons/photoshop_icon.svg" alt="" class="svc-img">
+                                    <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/skill_icons/photoshop_icon.svg" alt="" class="svc-img">
                                 </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[2]->index_skills_view_element[1]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[2]->index_skills_view_element[1]->content; ?></p>
                             </div>
                             <div class="svc-element">
                                 <div class="svc-img-wrapper">
-                                    <img src="./assets/img/skill_icons/premiere_icon.svg" alt="" class="svc-img">
+                                    <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/skill_icons/premiere_icon.svg" alt="" class="svc-img">
                                 </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[2]->index_skills_view_element[2]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[2]->index_skills_view_element[2]->content; ?></p>
                             </div>
                             <div class="svc-element">
                                 <div class="svc-img-wrapper">
-                                    <img src="./assets/img/skill_icons/aftereffects_icon.svg" alt="" class="svc-img">
+                                    <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/skill_icons/aftereffects_icon.svg" alt="" class="svc-img">
                                 </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[2]->index_skills_view_element[3]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[2]->index_skills_view_element[3]->content; ?></p>
@@ -184,14 +184,14 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
                         <div class="sv-content-wrapper">
                             <div class="svc-element">
                                 <div class="svc-img-wrapper">
-                                    <img src="./assets/img/skill_icons/excel_icon.svg" alt="" class="svc-img">
+                                    <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/skill_icons/excel_icon.svg" alt="" class="svc-img">
                                 </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[3]->index_skills_view_element[0]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[3]->index_skills_view_element[0]->content; ?></p>
                             </div>
                             <div class="svc-element">
                                 <div class="svc-img-wrapper">
-                                    <img src="./assets/img/skill_icons/words_icon.svg" alt="" class="svc-img">
+                                    <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/skill_icons/words_icon.svg" alt="" class="svc-img">
                                 </div>
                                 <h4 class="svc-title"><?php echo $texts->index_skills_view[3]->index_skills_view_element[1]->title; ?></h4>
                                 <p class="svc-text"><?php echo $texts->index_skills_view[3]->index_skills_view_element[1]->content; ?></p>
@@ -207,7 +207,7 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
             <div class="section_content">
                 <div class="card">
                     <div class="img-wrapper">
-                        <img src="./assets/img/hobbies_icons/coding.png" alt="">
+                        <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/hobbies_icons/coding.png" alt="">
                     </div>
                     <h2><?php echo $texts->index_hobbies_cards[0]->title ?></h2>
                     <p><?php echo $texts->index_hobbies_cards[0]->text ?></p>
@@ -215,7 +215,7 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
 
                 <div class="card">
                     <div class="img-wrapper">
-                        <img src="./assets/img/hobbies_icons/design.png" alt="">
+                        <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/hobbies_icons/design.png" alt="">
                     </div>
                     <h2><?php echo $texts->index_hobbies_cards[1]->title ?></h2>
                     <p><?php echo $texts->index_hobbies_cards[1]->text ?></p>
@@ -223,7 +223,7 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
 
                 <div class="card">
                     <div class="img-wrapper">
-                        <img src="./assets/img/hobbies_icons/gaming.png" alt="">
+                        <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/hobbies_icons/gaming.png" alt="">
                     </div>
                     <h2><?php echo $texts->index_hobbies_cards[2]->title ?></h2>
                     <p><?php echo $texts->index_hobbies_cards[2]->text ?></p>

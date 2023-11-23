@@ -2,17 +2,17 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="shortcut icon" href="/assets/img/favicon.svg" type="image/x-icon">
+<link rel="shortcut icon" href="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/favicon.svg" type="image/x-icon">
 
 <!--  -->
 <meta name="description" content="<?php echo $texts->meta_desc; ?>">
 
 <!-- PRELOADING SHIT -->
-<link rel="preload" href="/assets/fonts/K2D.ttf" as="font" type="font/ttf" crossorigin />
-<link rel="preload" href="/assets/fonts/Righteous.ttf" as="font" type="font/ttf" crossorigin />
+<link rel="preload" href="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/fonts/K2D.ttf" as="font" type="font/ttf" crossorigin />
+<link rel="preload" href="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/fonts/Righteous.ttf" as="font" type="font/ttf" crossorigin />
 
 <script src="https://cdn.counter.dev/script.js" data-id="84cc6a26-b513-44b7-8020-719e2d147afe" data-utcoffset="1" defer></script>
-<script src="/assets/js/popups.js"></script>
+<script src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/js/popups.js"></script>
 <!-- Matomo -->
 <script>
     var _paq = window._paq = window._paq || [];
