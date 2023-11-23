@@ -21,7 +21,7 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
 ?>
 
 <head>
-    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/css/index.css">
     <title>Mathéo Chaumet Venier - Portfolio</title>
     <?php require '../src/parts/head.php'; ?>
 </head>
@@ -234,7 +234,7 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
         <section id="contact">
             <h2 class="section_title"><?php echo $texts->index_contact_title ?></h2>
             <div class="section_content">
-                <form class="contact-form" action="../assets/script.php">
+                <form class="contact-form" action="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/script.php">
                     <span class="ux-pleaser"><span class="current-question">1</span>/<span class="out-of">?</span></span>
                     <div class="question-wrapper">
                         <div class="form-question">
@@ -253,7 +253,7 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
                             <span class="underline"></span>
                         </div>
                         <div class="form-result">
-                            <img src="./assets/img/err-circle.svg" class="result-icon" alt="">
+                            <img src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/img/err-circle.svg" class="result-icon" alt="">
                             <p class="result-txt"></p>
                         </div>
                     </div>
@@ -268,13 +268,13 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
 
     <?php require '../src/parts/footer.php' ?>
 
-    <script src="/assets/js/hello.js"></script>
-    <script src="/assets/js/lava_menu.js"></script>
-    <script src="/assets/js/form.js"></script>
-    <script src="/assets/js/nav.js"></script>
-    <script src="/assets/js/cv.js"></script>
-    <script src="/assets/js/popups.js"></script>
-    <script src="/assets/js/observers.js"></script>
+    <script src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/js/hello.js"></script>
+    <script src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/js/lava_menu.js"></script>
+    <script src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/js/form.js"></script>
+    <script src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/js/nav.js"></script>
+    <script src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/js/cv.js"></script>
+    <script src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/js/popups.js"></script>
+    <script src="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/js/observers.js"></script>
 </body>
 
 </html>

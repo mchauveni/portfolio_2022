@@ -7,7 +7,7 @@ $illustrations = json_decode(file_get_contents('../src/data/work_content/illustr
 ?>
 
 <head>
-    <link rel="stylesheet" href="/assets/css/lists.css">
+    <link rel="stylesheet" href="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/css/lists.css">
     <title>Illustrations</title>
     <?php require '../src/parts/head.php'; ?>
 </head>

@@ -7,7 +7,7 @@ $websites = json_decode(file_get_contents('../src/data/work_content/websites.jso
 ?>
 
 <head>
-    <link rel="stylesheet" href="/assets/css/lists.css">
+    <link rel="stylesheet" href="<?php echo APP_ROOT_URL_COMPLETE ?>/assets/css/lists.css">
     <title>Websites</title>
     <?php require '../src/parts/head.php'; ?>
 </head>
@@ -17,7 +17,7 @@ $websites = json_decode(file_get_contents('../src/data/work_content/websites.jso
     <main>
         <section id="hero">
             <div class="return-wrapper">
-                <a href="/" class="btn">← Retour</a>
+                <a href="<?php echo APP_ROOT_URL_COMPLETE ?>/" class="btn">← Retour</a>
             </div>
             <div class="hero-wrapper">
                 <p class="almost-main-title">Check my</p>
